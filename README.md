@@ -6,12 +6,13 @@ This repository contains the data and code used for the systematic review on the
 
 The repository is organized into the following directories and files:
 
-├── data/
-│   ├── search_returns/
-│   │   ├── base.csv
-│   │   ├── cinahl.csv
-│   │   ├── github.csv
-│   │   ├── ieee.csv
+```
+├── data/  
+│   ├── search_returns/  
+│   │   ├── base.csv  
+│   │   ├── cinahl.csv  
+│   │   ├── github.csv  
+│   │   ├── ieee.csv  
 │   │   ├── medline.csv
 │   │   ├── embase.csv
 │   │   ├── psychinfo.csv
@@ -24,7 +25,8 @@ The repository is organized into the following directories and files:
 │   │   ├── LB_response_complete.csv
 │   │   └── full_text_reviews.csv
 │   ├── appraise-ai/
-│   │   ├── 
+│   │   ├── APPRAISE-AI (scoring form)-LD.xlsx
+│   │   └── APPRAISE-AI (scoring form)-LB.xlsx
 │   └── README.md
 ├── notebooks/
 │   ├── search_preproc.ipynb
@@ -34,6 +36,7 @@ The repository is organized into the following directories and files:
 ├── third_reviewer_responses.md
 ├── README.md
 └── LICENSE
+```
 
 ### Directories and Files
 For both the `data` and `notebooks` directories, please seee the `README.md` files in each directory for further infomation on the files.
