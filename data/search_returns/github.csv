@@ -1,0 +1,3413 @@
+﻿author,title,abstract,date,search_term
+AaronANoronha-Pr,AudiometricAI,"# AudiometricAI: Transforming Hearing Test Diagnosis Through ML
+
+## 1. Introduction
+
+The **AudiometricAI** project utilizes machine learning to revolutionize hearing test diagnosis. By predicting outcomes based on patient characteristics, it offers a cost-effective and time-saving alternative to traditional methods.
+
+- **1.1 Project Overview**
+
+    AudiometricAI aims to assist medical professionals by predicting hearing test outcomes. The web application democratizes access to hearing test predictions, making it more accessible to a broader population.
+
+- **1.2 Purpose**
+
+    Using classification algorithms such as Logistic Regression, SVM, and neural networks, AudiometricAI predicts hearing test outcomes, saving time and costs for users.
+
+## 2. Literature Survey
+
+- **2.1 Existing Problem**
+
+    Traditional hearing health diagnostics face challenges of accuracy, accessibility, and cost. AudiometricAI addresses these issues with a machine learning-based predictive model.
+
+- **2.2 References**
+
+    Inspired by research articles on machine learning in medical diagnosis, AudiometricAI draws insights from reputable sources.
+
+- **2.3 Problem Statement Definition**
+
+    AudiometricAI aims to redefine hearing health diagnostics by developing a machine learning-based solution for predicting outcomes.
+
+## 3. Ideation & Proposed Solution
+
+- **3.1 Empathy Map Canvas**
+
+    Team collaboration and brainstorming led to the selection of a predictive model for hearing test outcomes.
+
+- **3.2 Ideation & Brainstorming**
+
+    The team prioritized creative solutions for hearing test diagnosis through machine learning.
+
+## 4. Requirement Analysis
+
+- **4.1 Functional Requirements**
+
+    Key requirements include data ingestion, machine learning model integration, training module, web application interface, and Flask integration.
+
+- **4.2 Non-Functional Requirements**
+
+    Ensuring scalability, performance, security, usability, and reliability are crucial non-functional requirements.
+
+## 5. Project Design
+
+- **5.1 Data Flow Diagrams & User Stories**
+
+    Data Flow Diagrams illustrate system information flow, while user stories define functionalities for different user types.
+
+- **5.2 Solution Architecture**
+
+    The solution architecture encompasses a web application, backend for data processing, machine learning, and a database.
+
+## 6. Project Planning & Scheduling
+
+- **6.1 Technical Architecture**
+
+    The technical architecture outlines the project's structure and characteristics.
+
+- **6.2 Sprint Planning & Estimation**
+
+    Sprint planning includes user stories, story points, and prioritization for efficient development.
+
+- **6.3 Sprint Delivery Schedule**
+
+    Scheduled sprints with story points and durations were planned for effective project management.
+
+## 7. Coding & Solutioning
+
+- **7.1 Feature 1**
+
+    Real-time visualization enhances user engagement by dynamically displaying predicted outcomes.
+
+- **7.2 Feature 2**
+
+    An adaptive user feedback system prompts users to provide feedback based on predicted outcomes.
+
+## 8. Performance Testing
+
+- **8.1 Performance Metrics**
+
+    Performance metrics include testing various machine learning models.
+
+## 9. Results
+
+- **9.1 Output Screenshots**
+
+    Screenshots showcasing the application's output.
+  ![image](https://github.com/smartinternz02/SI-GuidedProject-600495-1697527933/assets/122151410/3d970b00-6c1c-4663-9e72-c0518e59a682)
+  ![image](https://github.com/smartinternz02/SI-GuidedProject-600495-1697527933/assets/122151410/cde6b57e-37d1-4b88-add1-6f8c16789a60)
+
+
+
+## 10. Advantages & Disadvantages
+
+- **Advantages**
+
+    - Cost-efficiency
+    - Time-saving
+    - Accessibility
+    - Data-driven insights
+    - User engagement
+
+- **Disadvantages**
+
+    - Model limitations
+    - Dependency on user input
+    - Lack of personalized medical advice
+    - Potential bias
+    - Security concerns
+
+## 11. Conclusion
+
+AudiometricAI redefines hearing health diagnostics, offering advantages in cost, time, and user engagement. Acknowledging limitations, it emphasizes the supplementary nature of predictions compared to professional advice.
+
+## 12. Future Scope
+
+1. Integration of additional features
+2. Collaboration with healthcare providers
+3. Continuous model improvement
+4. Expansion to mobile platforms
+5. Research and publications
+
+## 13. Appendix
+
+GitHub: [AudiometricAI Repository](https://github.com/smartinternz02/SI-GuidedProject-600495-1697527933)
+
+Project Demo: [AudiometricAI Demo](https://drive.google.com/file/d/1fCpXo8Bq0jbwcJXjQ7aW79UcviT0G0U6/view?usp=sharing)",2023,audiometric
+georgehart,Audiometer Calibration Checker,"Promotor : Georges Hart - SONAVA Lucia De Borouckere - site Jules Ferry ( Alice Ninane & Maoudh Sheikairi))
+
+Scope:
+
+Devlopement of a documented prototype / device who measure the output level (dBSPL) of a transduser type DD65 The measured level /intensity will be compared to a previous fixed reference value. The prototype will communicate with the user by an graphical user interface",2018,audiometric
+h-peysepar,React + Vite,"This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+@vitejs/plugin-react uses Babel for Fast Refresh
+@vitejs/plugin-react-swc uses SWC for Fast Refresh",2023,audiometric
+avmuzy,Tympanum,None,2022,audiometric
+Giorgos Logiotatidis,audiometric-services,None,2014,audiometric
+MucaInera,audiometric-calculator,"# audiometric-calculator
+### Usage
+```
+const calculator = require('audiometric-calculator')
+
+try {
+  const message = calculator({
+    {
+      age: 36,
+      height: 1.78,
+      weigth: 93,
+      sex: 'm',
+      type: 'pistelli2007', // ceca || ers || paoletti || pistelli2000 || pistelli2007
+      vc: 1,
+      fvc: 2.1,
+      fev1: 2.1,
+      date: '31/05/2019'
+    }
+  })
+} catch (e) {}
+```",2019,audiometric
+Alexander Swartz,Audiometric-Testing-Interface,None,2023,audiometric
+Sergio Velasquez,test-audiometrics,None,2018,audiometric
+DeepeshKumar-2021,AudioMetrics,"# AudioMetrics
+
+download freeswitch source from the latest git repository:
+https://github.com/signalwire/freeswitch.git
+
+Download code from AudioMetrics repository and merge the changes to freeswitch
+do following configuration changes to freeswitch:
+
+make below changes in conf/sip_profiles/internal.xml
+<param name=""enable-timer"" value=""false""/>
+
+make following changes to conf/dialplan/default.xml
+<action application=""set"" data=""jitterbuffer_msec=60:200:20""/>
+<action application=""set"" data=""rtp_jitter_buffer_during_bridge=true""/>
+
+you can refer files in AudioMetrics repository.
+
+build freeswitch with below commands:
+run below command in freeswitch source directory:
+make && make install
+
+restart freeswitch:
+systemctl restart freeswitch.service
+
+You can register extension using any open-source SIP client (Like Zoiper, X-lite etc) with
+following details:
+Username: <Extension>
+Password: 12345
+Domain: <instance IP address>
+Available extensions are 1001, 1002, 1003 .
+You may register any two extensions and call another extension.
+
+once cal is done open freeswitch log file from location: /usr/local/freeswitch/freeswitch.log or find the exact location of logfile
+search for below logs:
+AUDIO QUALITY METRICS ==>
+
+",2021,audiometric
+Bunny Lushington,audiogram-erlang,"# Audiogram
+
+A plotting device for audiogram data.  Receives JSON data and produces
+SVG.  (There's [example output](example.svg) but GitHub seems to have
+issues actually displaying the graph.  Best to save the text and open
+it in a browser.)
+
+
+## Use
+
+``` erlang
+SVG = audiogram:audiogram(AudiometricsData).
+```
+
+## Format
+
+``` json
+{
+  ""audiograms"": [
+    {
+      ""ear"": ""left"",
+      ""conduction"": ""air"",
+      ""data"": [
+        {
+          ""f"": 0.25,
+          ""m"": false,
+          ""db"": 70
+        },
+        {
+          ""f"": 0.5,
+          ""m"": false,
+          ""db"": 70
+        },
+        {
+          ""f"": 1,
+          ""m"": false,
+          ""db"": 90
+        },
+        {
+          ""f"": 2,
+          ""m"": false,
+          ""db"": 80
+        },
+        {
+          ""f"": 4,
+          ""m"": false,
+          ""db"": 80
+        }
+      ]
+    }
+  ]
+}
+
+```
+
+Ear may be `left` or `right`.
+
+Conduction may be `air` or `bone`.
+
+Frequency (""f"", in Hz) may be any of: .125, .25, .5, .75, 1, 1.5, 2,
+3, 4, 6, 8, 12, 16.
+
+Level (""db"", in dB) may be in the range of -10 -- 140.
+
+Masked (""m"") may be `true` or `false`.  False is the default.
+
+
+
+
+## Author
+
+Bunny Lushington;
+September 2019",2019,audiometric
+LucianoSJ,Dispositivo de Alarme de Problemas no Setor de Tecnologia Através de Controle Audiométrico Baseado em Arduíno,"# Dispositivo de Alarme de Problemas no Setor de Tecnologia Através de Controle Audiométrico Baseado em Arduíno
+Versão 3.0
+## Objetivo do projeto
+O sistema fará o monitoramento do sensor de áudio e enviará a leitura para uma planilha do Excel, que analisará os dados colhidos comparando com os dados de arquivos anteriores e enviará uma mensagem ao responsável caso ultrapasse os valores preestabel
+
+## Principais características
+Monitora o nível do som no ambiente
+Detecção de problemas que gerem ruídos
+
+## Testes com decibelímetro virtual
+![](https://user-images.githubusercontent.com/42394231/101193539-79d67400-363b-11eb-81a6-966843990680.PNG)
+
+## Protótipo de projeto
+![](https://user-images.githubusercontent.com/42394231/101193568-85c23600-363b-11eb-8897-3490080eca44.jpg)
+
+Luciano Santos de Jesus, São Paulo, 2020
+
+https://www.codeproject.com/Articles/LucianoSJ#Article
+",2020,audiometric
+SravanthiSabbella,SELF AUDIOMETRIC TEST,"# SELF AUDIOMETRIC TEST
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Bootstrap](https://getbootstrap.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sravanthi-188/Self-Audiometric-Test.git
+2. **Clone the repository:**
+   ```bash
+   cd Self-Audiometric-Test
+## Open the project in your web browser:
+* #### Locate the index.html file in the project directory.
+* #### Right-click on index.html.
+* #### Choose ""Open with"" and select your preferred web browser.",2024,audiometric
+Yurko Prokopets,AudiogramDatabase,None,2019,audiometric
+bcm9,plot_audiogram,"# plot_audiogram
+### MATLAB function to plot audiometric thresholds from excel spreadsheet. Main code: plot_audiogram.m
+
+### plot_audiogram(nplots,plotdinv,errbartype):
+
+* nplots = single (1) or subplots (2)
+* plotdinv = overlay individual data (1) or not (0)
+* errbartype= no (0), stdev (1) or SEM (2) errorbars
+
+### Example:
+
+Organize data in excel spreadsheet as in audio_data_example. 
+
+Add or remove rows (participants) and columns (frequencys) as necessary.
+
+To plot mean + SDs in a single plot without individual data, type in command line: plot_audiogram(1,0,1)
+![](example_data_plot.png)
+
+
+
+To plot mean + SEMs in a subplots with individual data, type in command line: plot_audiogram(2,1,2)
+![](example_data_plot2.png)
+
+Select excel spreadsheet.
+
+
+Y-Axis Limits:
+
+To change y-limits, edit ylim([-15 115]) in code.",2022,audiometric
+Morag Lewis,ThreADD,"# ThreADD
+
+These scripts were written to compare the average pure tone thresholds of people separated into groups by genotype and sex for a list of input variants. Required input files include the pure tone thresholds and the variant calls. 
+
+The first script (ThreADD.pl) does the comparisons and outputs a list of variants which pass the user-supplied minimum threshold and maximum standard deviation (adjusted by frequency). It can also output graphs without doing comparisons, in which case it will either output a graph for every input variant, or it will output a graph for every input variant within a specific gene.
+
+The second script (ThreADD_permute.pl) carries out the same comparisons followed by a permutation test. Only variants which pass both the comparison test and the permutation test are output as graphs.
+
+![threadd](https://user-images.githubusercontent.com/29064421/216606662-2bc22822-ea6c-4e36-a7a5-ff4bad661e22.png)
+
+The diagram is taken from a poster to be presented at the Association for Research in Otolaryngology Midwinter Meeting 2023. A paper describing the work is in progress.
+
+ThreADD.pl takes as input:
+1. A tab-separated file containing thresholds in the following format:
+   - A header line starting ""SEX"" and containing sex, person ID, secondary ID, collection date, age at collection, noise history, right ear thresholds (for 8 pure tones in Hz), space, left ear thresholds (for the same 8 pure tones). 
+   - Values for the SEX column can be anything, but only ""M"" and ""F"" values will be used when assigning individuals to sex-specific groups. All IDs which are neither ""M"" nor ""F"" will be assigned to the ""N"" group, which is not used for sex-specific comparison.
+   - Any unavailable threshold values should be ""NA"". Any other unavailable values should be ""."". The script only uses sex, age and ID in addition to the tone thresholds.
+   - The default 8 tones are 0.25, 0.5, 1, 2, 3, 4, 6 and 8kHz. If the first tone is 125Hz, then the script switches to use 0.125, 0.25, 0.5, 1, 2, 4, 6 and 8kHz. No other options are provided.
+2. A vcf file with variants. The IDs in the vcf header should correspond to the IDs in the threshold file, but it is not a problem if there are extra IDs in either file. 
+   - Note that this script does not handle multiallelic sites, but vcf files can be ""flattened"" like so:
+     - G   A,C     0/1     0/2     1/2
+     - becomes:
+     - G   A       0/1     0/v     1/v
+     - G   C       0/v     0/1     v/1
+     - ""v"" here means any allele which is neither the reference nor the alternate
+   - ""Minority calls"" (referred to in comments) are calls which are not simple ones, eg (0/1, 1/1), and indicate a failed call
+   -  The script will handle mitochondrial variants, but expects them to be marked ""HET1"", ""HOM1"", ""WT"" or ""FAIL"" (for heteroplasmic, homoplasmic, wildtype or fail)
+   - If variants are plotted, a gene name from the VCF file will be used as a title for the plot. A VEP-annotated vcf file will work, or you can provide your own names in the INFO field. The script expects values to be separated by ""|"", and the gene name and Ensembl ID should be in the fourth and fifth entry.
+     - For example:
+     - 1       1485777 rs1622213       G       A       100.5 PASS    CSQ=A|splice_region_variant|LOW|ATAD3B|ENSG00000160072
+3. A desired minimum threshold difference, in dB
+4. A maximum permitted standard deviation. This is adjusted by the script to allow for more variability at high frequencies (+10) and less at low frequencies (-5).
+5. (Optional) A gene name (eg ATAD3B) or ""gengr"". 
+   - In the case of a gene name being input, the script will generate graphs for every variant in that gene in the file.
+   - In the case of ""gengr"", the script will generate graphs for all variants in the file. No comparisons will be carried out. 
+   - In both cases, the set threshold and standard deviation still need to be entered, but will not be used.
+
+The output is a list of variants which pass the required settings, and can be used as input for ThreADD_permute.pl. If a gene name or ""gengr"" is supplied as the fifth argument, image files with the graphs in will also be output.
+Please note that ImageMagick is required for the image generation.
+If graphs are generated without testing thresholds (eg by inputting a gene name or ""gengr"" as the fifth argument), the output text file instead contains details of each variant for which a graph was generated, its filename and the participant IDs in each grouping (""0_1_F"" means female participants with a 0/1 genotype, ie heterozygotes).
+If any group is plotted which contains only one participant, the ""average"" age of that group is not reported to protect privacy. Instead, a range is reported (eg 67 years becomes 65-70y, and 80 years becomes 80-85y).
+
+ThreADD_permute.pl takes as input:
+1. A tab-separated file containing thresholds in the following format:
+   - A header line starting ""SEX"" and containing sex, person ID, secondary ID, collection date, age at collection, noise history, right ear thresholds (for 8 pure tones in Hz), space, left ear thresholds (for the same 8 pure tones)
+   - Values for the SEX column can be anything, but only ""M"" and ""F"" values will be used when assigning individuals to sex-specific groups. All IDs which are neither ""M"" nor ""F"" will be assigned to the ""N"" group, which is not used for sex-specific comparison.
+   - Any unavailable threshold values should be ""NA"". Any other unavailable values should be ""."". The script only uses sex, age and ID in addition to the tone thresholds.
+   - The default 8 tones are 0.25, 0.5, 1, 2, 3, 4, 6 and 8kHz. If the first tone is 125Hz, then the script switches to use 0.125, 0.25, 0.5, 1, 2, 4, 6 and 8kHz. No other options are provided.
+2. A vcf file with variants. The IDs in the vcf header should correspond to the IDs in the threshold file, but it is not a problem if there are extra IDs in either file. 
+   - Note that this script does not handle multiallelic sites, but vcf files can be ""flattened"" like so:
+     - G   A,C     0/1     0/2     1/2
+     - becomes:
+     - G   A       0/1     0/v     1/v
+     - G   C       0/v     0/1     v/1
+     - ""v"" here means any allele which is neither the reference nor the alternate
+   - ""Minority calls"" (referred to in comments) are calls which are not simple ones, eg (0/1, 1/1), and indicate a failed call
+   -  The script will handle mitochondrial variants, but expects them to be marked ""HET1"", ""HOM1"", ""WT"" or ""FAIL"" (for heteroplasmic, homoplasmic, wildtype or fail)
+   - If variants are plotted, a gene name from the VCF file will be used as a title for the plot. A VEP-annotated vcf file will work, or you can provide your own names in the INFO field. The script expects values to be separated by ""|"", and the gene name and Ensembl ID should be in the fourth and fifth entry.
+     - For example:
+     - 1       1485777 rs1622213       G       A       100.5 PASS    CSQ=A|splice_region_variant|LOW|ATAD3B|ENSG00000160072
+3. A desired minimum threshold difference, in dB
+4. A maximum permitted standard deviation. This is adjusted by the script to allow for more variability at high frequencies (+10) and less at low frequencies (-5).
+5. A file of random numbers, one per line, with no duplicates. This is used to seed the randomisation of the assignment of individuals to groups in the permutation, and the number of lines in the file dictates how many permutations are carried out.
+
+The output is a text file containing details of the variants which passed the permutation filter, the filename of the graph generated, the number of permutations which resulted in a similar average threshold difference, the gene name and the participant IDs in each grouping (""0_1_F"" means female participants with a 0/1 genotype, ie heterozygotes).
+If any group is plotted which contains only one participant, the ""average"" age of that group is not reported to protect privacy. Instead, a range is reported (eg 67 years becomes 65-70y, and 80 years becomes 80-85y).
+Also output are image files, one per filtered variant, showing the audiograms with averages, and also showing individual thresholds for those groups which were sufficiently different to pass the initial filter (the set threshold and standard deviation).",2023,audiometric
+2e-garcia,JAMA-OTO-Smoking,"JAMA-OTO-Smoking
+
+Morales, E. E. G., Ting, J., Gross, A. L., Betz, J. F., Jiang, K., Du, S., ... & Deal, J. A. (2022). Association of cigarette smoking patterns over 30 years with audiometric Hearing impairment and speech-in-noise perception: the atherosclerosis risk in communities study. JAMA Otolaryngology–Head & Neck Surgery, 148(3), 243-251.",2022,audiometric
+woheller69,audiometry,"<pre>Send a coffee to woheller69@t-online.de 
+<a href= ""https://www.paypal.com/signin""><img  align=""left"" src=""https://www.paypalobjects.com/webstatic/de_DE/i/de-pp-logo-150px.png""></a></pre>
+
+
+| **RadarWeather** | **Gas Prices** | **Smart Eggtimer** | 
+|:---:|:---:|:---:|
+| [<img src=""https://github.com/woheller69/weather/blob/main/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.weather/)| [<img src=""https://github.com/woheller69/spritpreise/blob/main/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.spritpreise/) | [<img src=""https://github.com/woheller69/eggtimer/blob/main/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.eggtimer/) |
+| **Bubble** | **hEARtest** | **GPS Cockpit** |
+| [<img src=""https://github.com/woheller69/Level/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.level/) | [<img src=""https://github.com/woheller69/audiometry/blob/new/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.audiometry/) | [<img src=""https://github.com/woheller69/gpscockpit/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.gpscockpit/) |
+| **Audio Analyzer** | **LavSeeker** | **TimeLapseCam** |
+| [<img src=""https://github.com/woheller69/audio-analyzer-for-android/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.audio_analyzer_for_android/) |[<img src=""https://github.com/woheller69/lavatories/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.lavatories/) | [<img src=""https://github.com/woheller69/TimeLapseCamera/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.TimeLapseCam/) |
+| **Arity** | **omWeather** | **solXpect** |
+| [<img src=""https://github.com/woheller69/arity/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.arity/) | [<img src=""https://github.com/woheller69/omweather/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.omweather/) | [<img src=""https://github.com/woheller69/solXpect/blob/main/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.solxpect/) |
+| **gptAssist** |  |  |
+| [<img src=""https://github.com/woheller69/gptassist/blob/master/fastlane/metadata/android/en-US/images/icon.png"" width=""50"">](https://f-droid.org/packages/org.woheller69.gptassist/) |  |  |
+
+
+# hEARtest
+------------------------------------------------
+
+<img src=""fastlane/metadata/android/en-US/images/phoneScreenshots/01.png"" width=""150""/> <img src=""fastlane/metadata/android/en-US/images/phoneScreenshots/02.png"" width=""150""/> <img src=""fastlane/metadata/android/en-US/images/phoneScreenshots/03.png"" width=""150""/> <img src=""fastlane/metadata/android/en-US/images/phoneScreenshots/04.png"" width=""150""/> <img src=""fastlane/metadata/android/en-US/images/phoneScreenshots/05.png"" width=""150""/>
+
+Quick and Simple Hearing Evaluation
+
+<a href=""https://f-droid.org/packages/org.woheller69.audiometry""><img alt=""Get it on F-Droid"" src=""https://fdroid.gitlab.io/artwork/badge/get-it-on.png"" height=""100""></a>
+
+This app can evaluate your hearing capabilities. 
+The term dB HL describes your hearing loss in decibels.
+
+The table below shows a common way to classify hearing loss
+(Source: Clark, J. G. (1981). Uses and abuses of hearing loss classification. Asha, 23, 493–500.)
+
+
+| **Degree of hearing loss** | **Hearing loss range (dB HL)** | 
+|:---:|:------------------------------:|
+|Normal|–10 to 15|
+|Slight|16 to 25|
+|Mild|26 to 40|
+|Moderate|41 to 55|
+|Moderately severe|56 to 70|
+|Severe|71 to 90|
+|Profound|91+|
+
+
+First your earphones must be calibrated. 
+
+Important: Earphones must not have integrated volume control or loudness, equalizers, etc.
+
+You can either perform a full test which requires one or better several persons
+between the ages of 18 and 35 with normal hearing. Or you can perform a simple calibration at 1000Hz only (assuming good hearing at
+this frequency). In this case it is assumed that the earphones are linear across the frequency range and calibration values for the 
+other frequencies are then calculated using the ISO226:2003 standard.
+Whenever you hear a beep simply touch the screen. You can pause / continue with a long click and speed up with a double click.
+If you have several persons available for calibration simply press ""Add Calibration"" and an average value of existing calibrations
+will be calculated. You may also delete the whole calibration.
+
+After that you can perform tests and view them in test results.
+
+You can then also perform tests at single frequencies.
+There you can manually select ear, frequency, and sound amplitude by clicking on the buttons.
+
+Backup/restore is also available.
+
+## License
+
+This app is published under GNU GPL V3 License.
+
+The app uses:
+Zip4j (https://github.com/srikanth-lingala/zip4j) which is licensed under Apache License Version 2.0
+AndroidX libraries (https://github.com/androidx/androidx) which is licensed under Apache License Version 2.0
+MPAndroidChart (https://github.com/PhilJay/MPAndroidChart) which is licensed under Apache License Version 2.0
+Material Design Icons (https://material.io/resources/icons/) which are licensed under Apache License Version 2.0
+
+The original version of this code is published under MIT license, Copyright (c) 2014 Reece Stevens.
+
+https://github.com/ReeceStevens/ut_ewh_audiometer_2014",2023,audiometry
+drwaseemsheikh,audiometry,"# audiometry
+
+Audiometry is an open-source application framework based on WPF and .NET to create hearing test related applications. The framework is built using the Model-View-ViewModel (MVVM) software architectural pattern.
+
+Audiometry can store, process, and visualize data corresponding to tuning fork tests including Weber, Rinne, Schwabach, absolute bone conduction, Teal, and Gelle; speech audiometry; pure-tone audiometry (PTA) including air conduction masked, air conduction unmasked, bone conduction masked, bone conduction unmasked, air conduction aided, loudness level, and sound field; impedance audiometry; bithermal caloric test; and advanced tests including alternate binaural loudness balance (ABLB), short increment sensitivity index (SISI), tone decay, and Stenger.
+
+The application framework is extensible and can be used to develop new hearing test applications by extending the current functionality.
+
+Audiometry is independent of specific hearing test hardware thus making it possible to be used with a wide variety of hearing test hardware.
+
+Audiometry provides a unified and uniform interface for storing, processing, and visualizing data from a wide range of hearing tests that traditionally rely on different hardware and software to process and store data.
+
+# Installation
+
+``Audiometry`` can be installed on a Windows 7 or Windows 10 machine. To install the application, run the AudiometryInstaller.msi in the installer folder of the repository.
+
+# Documentation
+
+A description of the software can be found at https://github.com/drwaseemsheikh/audiometry/blob/master/docs/full_paper.pdf.
+API docs can be found at https://drwaseemsheikh.github.io/audiometry/.
+The JOSS paper is available at [![DOI](https://joss.theoj.org/papers/10.21105/joss.02016/status.svg)](https://doi.org/10.21105/joss.02016).",2020,audiometry
+PeerHerholz,audiometry_mri,"Ain't no sound loud enough - audiometry-like measurements for the assessment of acoustic MRI noise
+==================================================================================================
+
+.. image:: https://img.shields.io/github/issues-pr/C0C0AN/audiometry_mri.svg
+    :alt: PRs
+    :target: https://github.com/C0C0AN/audiometry_mri/pulls/
+
+.. image:: https://img.shields.io/github/contributors/C0C0AN/audiometry_mri.svg
+    :alt: Contributors
+    :target: https://GitHub.com/C0C0AN/audiometry_mri/graphs/contributors/
+
+.. image:: https://img.shields.io/github/commit-activity/m/C0C0AN/audiometry_mri?style=plastic
+    :alt: Commits
+    :target: https://github.com/C0C0AN/audiometry_mri/commits/master
+
+.. image:: http://hits.dwyl.io/C0C0AN/audiometry_mri.svg
+    :alt: Hits
+    :target: http://hits.dwyl.io/C0C0AN/audiometry_mri
+
+.. image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+    :alt: License
+    :target: https://opensource.org/licenses/BSD-3-Clause
+    
+.. image:: https://img.shields.io/badge/Supported%20by-%20CONP%2FPCNO-red
+    :alt: support_conp
+    :target: https://conp.ca/
+
+Description
+===========
+ANSL is a toolbox (and hopefully soon BIDS app) for conducting audiometry like measurements in MRI settings. In more detail, it includes adjustable `short experiments <https://github.com/C0C0AN/audiometry_mri/scripts_stimulation>`_ targeting hearing thresholds by presenting a range of frequencies in ascending and descending loudness, the automated analysis of `recorded responses <https://github.com/C0C0AN/audiometry_mri/scripts_analyses>`_, `tutorials regarding stimuli <https://github.com/C0C0AN/audiometry_mri/scripts_stimulation>`_ and plotting functionalities, e.g. plotting hearing thresholds on top of scanner and stimuli frequencies to visualize possible interaction effects (graphic above), plotting mean hearing thresholds across different scanner settings (graphic below) and plotting loudness increase and decrease trials in different scanner settings (graphic further down).
+
+.. image:: data/ansl_example_all_line.png
+    :alt: examples_all
+    :scale: 50 %
+
+
+Overview of functionality
+=========================
+As mentioned above, ANSL is divided into three sections that include respective functions:
+
+Audiometry measurements
+_________
+
+
+Visualization
+______________
+
+
+Utilities
+________
+
+
+.. image:: data/ansl_example_all.png
+    :alt: examples_all
+    :scale: 50 %
+
+Documentation
+=============
+
+A documentation is currently in the works and will be available soon. Sorry for any inconvenience this might cause.
+
+How to report errors
+____________________
+Running into any bugs :beetle:? Check out the `open issues <https://github.com/CoCoAN/audiometry_mri/issues>`_ to see if we're already working on it. If not, open up a new issue and we will check it out when we can!
+
+How to contribute
+_________________
+Thank you for considering contributing to our project! Before getting involved, please review our `Code of Conduct <https://github.com/CoCoAN/audiometry_mri/blob/master/CODE_OF_CONDUCT.rst>`_. Next, you can review `open issues <https://github.com/CoCoAN/audiometry_mri/issues>`_ that we are looking for help with. If you submit a new pull request please be as detailed as possible in your comments. Please also have a look at our `contribution guidelines <https://github.com/CoCoAN/audiometry_mri/blob/master/CONTRIBUTING.rst>`_.
+
+Acknowledgements
+================
+If you intend to or already used ANSL, we would be very happy if you cite this github repo, till we have ""something"" out there!
+
+
+
+
+
+
+
+
+Please feel free to contact me wrt any question or idea via mail (herholz dot peer at gmail dot com), twitter (`@peeherholz <https://twitter.com/PeerHerholz?lang=eng>`_) or the brainhack slack/mattermost team (@peerherholz).
+
+
+Support
+=======
+This work is supported in part by funding provided by `Brain Canada <https://braincanada.ca/>`_, in partnership with `Health Canada <https://www.canada.ca/en/health-canada.html>`_, for the `Canadian Open Neuroscience Platform initiative <https://conp.ca/>`_.
+
+.. image:: https://conp.ca/wp-content/uploads/elementor/thumbs/logo-2-o5e91uhlc138896v1b03o2dg8nwvxyv3pssdrkjv5a.png
+    :alt: logo_conp
+    :target: https://conp.ca/",2021,audiometry
+aryathulasi,audiometry,# audiometry,2018,audiometry
+https://github.com/claushansen,audiometry-project,"Welcome to our Appcelerator Titanium Mobile Project
+
+This project is a part of an assignment on EAL - Erhvervsakademiet Lillebælt.
+Fall 2015
+
+
+----------------------------------
+People participating:
+Carsten Wentzel
+Claus Hansen
+Morten Halling
+Per Hoffmann
+Peter Wentzel
+Welcome to our Appcelerator Titanium Mobile Project
+
+This project is a part of an assignment on EAL - Erhvervsakademiet Lillebælt.
+Fall 2015
+
+
+----------------------------------
+People participating:
+Carsten Wentzel
+Claus Hansen
+Morten Halling
+Per Hoffmann
+Peter Wentzel
+Welcome to our Appcelerator Titanium Mobile Project
+
+This project is a part of an assignment on EAL - Erhvervsakademiet Lillebælt.
+Fall 2015
+
+
+----------------------------------
+People participating:
+Carsten Wentzel
+Claus Hansen
+Morten Halling
+Per Hoffmann
+Peter Wentzel
+Welcome to our Appcelerator Titanium Mobile Project
+
+This project is a part of an assignment on EAL - Erhvervsakademiet Lillebælt.
+Fall 2015
+
+
+----------------------------------
+People participating:
+Carsten Wentzel
+Claus Hansen
+Morten Halling
+Per Hoffmann
+Peter Wentzel",2016,audiometry
+Hamilton Lab at UT Austin,audiometry,"# audiometry
+Python scripts for plotting audiograms and related data from [Interacoustics Equinox 2.0 audiometer](https://www.interacoustics.com/us/audiometry/clinical/equinox) and [Otoaccess software](https://www.interacoustics.com/us/otoaccess). Maybe similar scripts exist, but I haven't found them and wrote one myself. 
+
+To run, this assumes you have a directory with .xml files that were exported from the Otoaccess software. 
+Ours are named `[subj_id]_[date]_audiometry.xml`. If you name them this way, the function `main()` will show the subject ID as the title of each subplot.
+
+The function `parse_audiometry()` takes in an xml file and outputs a dictionary `audiogram` that is organized by ear ('Left' and 'Right'). Each side contains another dictionary with the frequency of pure tones played and the measured thresholds in dB HL. For example:
+
+``` 
+>>> from audiometry import parse_audiometry
+>>> audiogram = parse_audiometry('/path/to/subjid_20211101_audiometry.xml')
+>>> print(audiogram)
+{'Left': {250: 15, 500: 20, 1000: 10, 2000: 5, 4000: 5, 8000: 5},
+ 'Right': {250: 15, 500: 15, 1000: 10, 2000: 10, 4000: 10, 8000: 0}}
+```
+
+To plot this, you can use the function `plot_audiogram()`:
+
+```
+>>> from audiometry import plot_audiogram, parse_audiometry
+>>> from matplotlib import pyplot as plt
+>>> plt.ion()
+>>> audiogram = parse_audiometry('/path/to/subjid_20211101_audiometry.xml')
+>>> fig = plt.figure(1)
+>>> plot_audiogram(audiogram, fig=fig, banana='Both', classification=True)
+>>> plt.title('subj_id')
+>>> plt.savefig('Example_audiogram.png')
+>>> plt.show()
+```
+
+![](Example_audiogram.png)
+
+## Quick Start ##
+
+You can also just do this to get audiograms for all files in a directory. Might look ugly, YMMV. Assumes you have all your `*.xml` files in a directory called `/path/to/audiograms`.
+
+```
+>>> import audiometry
+>>> from matplotlib import pyplot as plt
+>>> plt.ion()
+>>> audiometry.main('/path/to/audiograms')
+```
+
+## In progress ##
+
+Getting out QuickSIN data in addition to pure tone data is in progress but not yet implemented. 
+
+Email Liberty Hamilton (liberty.hamilton@austin.utexas.edu) with any questions. ",2023,audiometry
+https://github.com/S1ddh4rthaG/DhwaniSarathi/commits?author=S1ddh4rthaG,Dhwani Sarathi,"# Dhwani Sarathi
+
+### SiH 1403 : App-Based Audiometer
+### Problem Statement:
+
+>To know a person's Hearing Loss, generally we use a Pure Tone Audiometer. To use this it requires a bulk of the instrument to be carried. This testing requires a considerable amount of time for testing. It was observed that a large level of hearing testing, it is consuming much time. So a hand-held Mobile phone operated APP BASED AUDIOMETER will be of immense useful in finding and detecting hearing loss in children in schools
+
+### Motivation:
+Introducing an app-based audiometer for school screenings revolutionizes the way we detect and address hearing loss in children. This mobile phone-operated solution offers unparalleled accessibility, convenience, and cost-effectiveness, drastically reducing testing time while ensuring early detection. By leveraging modern technology, this app empowers healthcare providers, educators, and parents to swiftly identify potential hearing issues, enabling timely intervention and fostering better academic and social outcomes for children.
+
+### Features of App
+- Pure Tone Audiometry Test
+- Results, Analysis, and Interpretation of Test
+- Classroom Based management system with Analytics
+- Connect to the Nearest Doctor
+- Digitization of physical audiometry documents
+- and many more...
+
+### Tech Stack
+- React Native
+- Django
+
+## Screenshots
+<h3>Authentication</h3>
+<p>
+ <img src=""Screenshots/Login.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Signup.jpeg"" width=""245"">&emsp;
+  <img src=""Screenshots/StartTest.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>User View</h3>
+ <img src=""Screenshots/userScreens.png"" >&emsp;
+</p>
+
+<h3>Preliminary Checks</h3>
+<p>
+ <img src=""Screenshots/preliminaryCheck1.png"" width=""230"">&emsp;
+ <img src=""Screenshots/NoiseDetection.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/Headphone Orientation.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/obstacle_detection.png"" width=""230"">&emsp;
+</p>
+
+<h3>Test</h3>
+<p>
+ <img src=""Screenshots/Test_audiometer.png"">&emsp;
+</p>
+
+<h3>Results</h3>
+<p>
+ <img src=""Screenshots/Results.png"">&emsp;
+ <br>
+ <img src=""Screenshots/Results_audiometer.png"">&emsp;
+</p>
+
+<h3>Teacher View</h3>
+<p>
+ <img src=""Screenshots/Teacher Profile Page.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Assignments2.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>Analytics</h3>
+ <img src=""Screenshots/analytics_audiometer.png"">&emsp;
+</p>
+
+## Getting Started
+### Firebase
+- Create a Firebase account
+- Add the firebase config in FirebaseConfig.js in audiometer/
+  
+### Frontend
+- Clone the repository
+- Run the below commands:
+
+```shell
+cd audiometer
+npm install
+npm run web
+```
+- Change **ip** value to address in the command line in the file audiometer/app/Constants/ip.js
+
+### Backend
+- Run the below commands:
+```shell
+cd server 
+```
+- Create Virtual Environment
+  
+You can use multiple methods to create a virtual environment, whatever suits your need
+
+##### Conda
+```shell
+conda create -n venv python=3.6.3 anaconda
+conda activate venv
+```
+#### Virtualenv
+
+##### Windows
+```shell
+python -m venv venv   
+.\venv\Scripts\Activate
+```
+
+##### Linux
+```shell
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+- Install the requirements and run server
+```shell
+pip install -r requirements.txt
+#Intialize DB data/Create Models in DB
+python manage.py makemigrations
+python manage.py migrate
+
+cd backend
+python manage.py runserver <ip_address>:80/<ip_address>:8081 
+
+#Here <ip_address> is the IP address on which the expo is running
+```
+## Team
+<p>
+    <img src=""Screenshots/Hackathon.jpeg"" >&emsp;
+</p>
+<p>
+    <img src=""Screenshots/winners.jpeg"">&emsp;
+    </p>
+
+**Team Members** 
+
+- Sachin Kumar Sahu
+- Palivela Ganesh Priyatham
+- Preethi Varsha Marivina
+- Siddhartha G
+- Swami Ramchandra Kedari
+- Sirish Sekhar
+
+### References
+- Charih, François, and James R. Green. ""Audiogram Digitization Tool for Audiological Reports."" IEEE Access 10 (2022): 110761-110769.
+- [Machine Learning in Audiology: Applications and Implications](https://repository.library.carleton.ca/concern/etds/gt54kp02t).
+# Dhwani Sarathi
+
+### SiH 1403 : App-Based Audiometer
+### Problem Statement:
+
+>To know a person's Hearing Loss, generally we use a Pure Tone Audiometer. To use this it requires a bulk of the instrument to be carried. This testing requires a considerable amount of time for testing. It was observed that a large level of hearing testing, it is consuming much time. So a hand-held Mobile phone operated APP BASED AUDIOMETER will be of immense useful in finding and detecting hearing loss in children in schools
+
+### Motivation:
+Introducing an app-based audiometer for school screenings revolutionizes the way we detect and address hearing loss in children. This mobile phone-operated solution offers unparalleled accessibility, convenience, and cost-effectiveness, drastically reducing testing time while ensuring early detection. By leveraging modern technology, this app empowers healthcare providers, educators, and parents to swiftly identify potential hearing issues, enabling timely intervention and fostering better academic and social outcomes for children.
+
+### Features of App
+- Pure Tone Audiometry Test
+- Results, Analysis, and Interpretation of Test
+- Classroom Based management system with Analytics
+- Connect to the Nearest Doctor
+- Digitization of physical audiometry documents
+- and many more...
+
+### Tech Stack
+- React Native
+- Django
+
+## Screenshots
+<h3>Authentication</h3>
+<p>
+ <img src=""Screenshots/Login.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Signup.jpeg"" width=""245"">&emsp;
+  <img src=""Screenshots/StartTest.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>User View</h3>
+ <img src=""Screenshots/userScreens.png"" >&emsp;
+</p>
+
+<h3>Preliminary Checks</h3>
+<p>
+ <img src=""Screenshots/preliminaryCheck1.png"" width=""230"">&emsp;
+ <img src=""Screenshots/NoiseDetection.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/Headphone Orientation.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/obstacle_detection.png"" width=""230"">&emsp;
+</p>
+
+<h3>Test</h3>
+<p>
+ <img src=""Screenshots/Test_audiometer.png"">&emsp;
+</p>
+
+<h3>Results</h3>
+<p>
+ <img src=""Screenshots/Results.png"">&emsp;
+ <br>
+ <img src=""Screenshots/Results_audiometer.png"">&emsp;
+</p>
+
+<h3>Teacher View</h3>
+<p>
+ <img src=""Screenshots/Teacher Profile Page.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Assignments2.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>Analytics</h3>
+ <img src=""Screenshots/analytics_audiometer.png"">&emsp;
+</p>
+
+## Getting Started
+### Firebase
+- Create a Firebase account
+- Add the firebase config in FirebaseConfig.js in audiometer/
+  
+### Frontend
+- Clone the repository
+- Run the below commands:
+
+```shell
+cd audiometer
+npm install
+npm run web
+```
+- Change **ip** value to address in the command line in the file audiometer/app/Constants/ip.js
+
+### Backend
+- Run the below commands:
+```shell
+cd server 
+```
+- Create Virtual Environment
+  
+You can use multiple methods to create a virtual environment, whatever suits your need
+
+##### Conda
+```shell
+conda create -n venv python=3.6.3 anaconda
+conda activate venv
+```
+#### Virtualenv
+
+##### Windows
+```shell
+python -m venv venv   
+.\venv\Scripts\Activate
+```
+
+##### Linux
+```shell
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+- Install the requirements and run server
+```shell
+pip install -r requirements.txt
+#Intialize DB data/Create Models in DB
+python manage.py makemigrations
+python manage.py migrate
+
+cd backend
+python manage.py runserver <ip_address>:80/<ip_address>:8081 
+
+#Here <ip_address> is the IP address on which the expo is running
+```
+## Team
+<p>
+    <img src=""Screenshots/Hackathon.jpeg"" >&emsp;
+</p>
+<p>
+    <img src=""Screenshots/winners.jpeg"">&emsp;
+    </p>
+
+**Team Members** 
+
+- Sachin Kumar Sahu
+- Palivela Ganesh Priyatham
+- Preethi Varsha Marivina
+- Siddhartha G
+- Swami Ramchandra Kedari
+- Sirish Sekhar
+
+### References
+- Charih, François, and James R. Green. ""Audiogram Digitization Tool for Audiological Reports."" IEEE Access 10 (2022): 110761-110769.
+- [Machine Learning in Audiology: Applications and Implications](https://repository.library.carleton.ca/concern/etds/gt54kp02t).
+# Dhwani Sarathi
+
+### SiH 1403 : App-Based Audiometer
+### Problem Statement:
+
+>To know a person's Hearing Loss, generally we use a Pure Tone Audiometer. To use this it requires a bulk of the instrument to be carried. This testing requires a considerable amount of time for testing. It was observed that a large level of hearing testing, it is consuming much time. So a hand-held Mobile phone operated APP BASED AUDIOMETER will be of immense useful in finding and detecting hearing loss in children in schools
+
+### Motivation:
+Introducing an app-based audiometer for school screenings revolutionizes the way we detect and address hearing loss in children. This mobile phone-operated solution offers unparalleled accessibility, convenience, and cost-effectiveness, drastically reducing testing time while ensuring early detection. By leveraging modern technology, this app empowers healthcare providers, educators, and parents to swiftly identify potential hearing issues, enabling timely intervention and fostering better academic and social outcomes for children.
+
+### Features of App
+- Pure Tone Audiometry Test
+- Results, Analysis, and Interpretation of Test
+- Classroom Based management system with Analytics
+- Connect to the Nearest Doctor
+- Digitization of physical audiometry documents
+- and many more...
+
+### Tech Stack
+- React Native
+- Django
+
+## Screenshots
+<h3>Authentication</h3>
+<p>
+ <img src=""Screenshots/Login.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Signup.jpeg"" width=""245"">&emsp;
+  <img src=""Screenshots/StartTest.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>User View</h3>
+ <img src=""Screenshots/userScreens.png"" >&emsp;
+</p>
+
+<h3>Preliminary Checks</h3>
+<p>
+ <img src=""Screenshots/preliminaryCheck1.png"" width=""230"">&emsp;
+ <img src=""Screenshots/NoiseDetection.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/Headphone Orientation.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/obstacle_detection.png"" width=""230"">&emsp;
+</p>
+
+<h3>Test</h3>
+<p>
+ <img src=""Screenshots/Test_audiometer.png"">&emsp;
+</p>
+
+<h3>Results</h3>
+<p>
+ <img src=""Screenshots/Results.png"">&emsp;
+ <br>
+ <img src=""Screenshots/Results_audiometer.png"">&emsp;
+</p>
+
+<h3>Teacher View</h3>
+<p>
+ <img src=""Screenshots/Teacher Profile Page.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Assignments2.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>Analytics</h3>
+ <img src=""Screenshots/analytics_audiometer.png"">&emsp;
+</p>
+
+## Getting Started
+### Firebase
+- Create a Firebase account
+- Add the firebase config in FirebaseConfig.js in audiometer/
+  
+### Frontend
+- Clone the repository
+- Run the below commands:
+
+```shell
+cd audiometer
+npm install
+npm run web
+```
+- Change **ip** value to address in the command line in the file audiometer/app/Constants/ip.js
+
+### Backend
+- Run the below commands:
+```shell
+cd server 
+```
+- Create Virtual Environment
+  
+You can use multiple methods to create a virtual environment, whatever suits your need
+
+##### Conda
+```shell
+conda create -n venv python=3.6.3 anaconda
+conda activate venv
+```
+#### Virtualenv
+
+##### Windows
+```shell
+python -m venv venv   
+.\venv\Scripts\Activate
+```
+
+##### Linux
+```shell
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+- Install the requirements and run server
+```shell
+pip install -r requirements.txt
+#Intialize DB data/Create Models in DB
+python manage.py makemigrations
+python manage.py migrate
+
+cd backend
+python manage.py runserver <ip_address>:80/<ip_address>:8081 
+
+#Here <ip_address> is the IP address on which the expo is running
+```
+## Team
+<p>
+    <img src=""Screenshots/Hackathon.jpeg"" >&emsp;
+</p>
+<p>
+    <img src=""Screenshots/winners.jpeg"">&emsp;
+    </p>
+
+**Team Members** 
+
+- Sachin Kumar Sahu
+- Palivela Ganesh Priyatham
+- Preethi Varsha Marivina
+- Siddhartha G
+- Swami Ramchandra Kedari
+- Sirish Sekhar
+
+### References
+- Charih, François, and James R. Green. ""Audiogram Digitization Tool for Audiological Reports."" IEEE Access 10 (2022): 110761-110769.
+- [Machine Learning in Audiology: Applications and Implications](https://repository.library.carleton.ca/concern/etds/gt54kp02t).
+# Dhwani Sarathi
+
+### SiH 1403 : App-Based Audiometer
+### Problem Statement:
+
+>To know a person's Hearing Loss, generally we use a Pure Tone Audiometer. To use this it requires a bulk of the instrument to be carried. This testing requires a considerable amount of time for testing. It was observed that a large level of hearing testing, it is consuming much time. So a hand-held Mobile phone operated APP BASED AUDIOMETER will be of immense useful in finding and detecting hearing loss in children in schools
+
+### Motivation:
+Introducing an app-based audiometer for school screenings revolutionizes the way we detect and address hearing loss in children. This mobile phone-operated solution offers unparalleled accessibility, convenience, and cost-effectiveness, drastically reducing testing time while ensuring early detection. By leveraging modern technology, this app empowers healthcare providers, educators, and parents to swiftly identify potential hearing issues, enabling timely intervention and fostering better academic and social outcomes for children.
+
+### Features of App
+- Pure Tone Audiometry Test
+- Results, Analysis, and Interpretation of Test
+- Classroom Based management system with Analytics
+- Connect to the Nearest Doctor
+- Digitization of physical audiometry documents
+- and many more...
+
+### Tech Stack
+- React Native
+- Django
+
+## Screenshots
+<h3>Authentication</h3>
+<p>
+ <img src=""Screenshots/Login.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Signup.jpeg"" width=""245"">&emsp;
+  <img src=""Screenshots/StartTest.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>User View</h3>
+ <img src=""Screenshots/userScreens.png"" >&emsp;
+</p>
+
+<h3>Preliminary Checks</h3>
+<p>
+ <img src=""Screenshots/preliminaryCheck1.png"" width=""230"">&emsp;
+ <img src=""Screenshots/NoiseDetection.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/Headphone Orientation.jpeg"" width=""230"">&emsp;
+ <img src=""Screenshots/obstacle_detection.png"" width=""230"">&emsp;
+</p>
+
+<h3>Test</h3>
+<p>
+ <img src=""Screenshots/Test_audiometer.png"">&emsp;
+</p>
+
+<h3>Results</h3>
+<p>
+ <img src=""Screenshots/Results.png"">&emsp;
+ <br>
+ <img src=""Screenshots/Results_audiometer.png"">&emsp;
+</p>
+
+<h3>Teacher View</h3>
+<p>
+ <img src=""Screenshots/Teacher Profile Page.jpeg"" width=""245"">&emsp;
+ <img src=""Screenshots/Assignments2.jpeg"" width=""245"">&emsp;
+</p>
+
+<p>
+<h3>Analytics</h3>
+ <img src=""Screenshots/analytics_audiometer.png"">&emsp;
+</p>
+
+## Getting Started
+### Firebase
+- Create a Firebase account
+- Add the firebase config in FirebaseConfig.js in audiometer/
+  
+### Frontend
+- Clone the repository
+- Run the below commands:
+
+```shell
+cd audiometer
+npm install
+npm run web
+```
+- Change **ip** value to address in the command line in the file audiometer/app/Constants/ip.js
+
+### Backend
+- Run the below commands:
+```shell
+cd server 
+```
+- Create Virtual Environment
+  
+You can use multiple methods to create a virtual environment, whatever suits your need
+
+##### Conda
+```shell
+conda create -n venv python=3.6.3 anaconda
+conda activate venv
+```
+#### Virtualenv
+
+##### Windows
+```shell
+python -m venv venv   
+.\venv\Scripts\Activate
+```
+
+##### Linux
+```shell
+python3 -m venv venv 
+source venv/bin/activate
+```
+
+- Install the requirements and run server
+```shell
+pip install -r requirements.txt
+#Intialize DB data/Create Models in DB
+python manage.py makemigrations
+python manage.py migrate
+
+cd backend
+python manage.py runserver <ip_address>:80/<ip_address>:8081 
+
+#Here <ip_address> is the IP address on which the expo is running
+```
+## Team
+<p>
+    <img src=""Screenshots/Hackathon.jpeg"" >&emsp;
+</p>
+<p>
+    <img src=""Screenshots/winners.jpeg"">&emsp;
+    </p>
+
+**Team Members** 
+
+- Sachin Kumar Sahu
+- Palivela Ganesh Priyatham
+- Preethi Varsha Marivina
+- Siddhartha G
+- Swami Ramchandra Kedari
+- Sirish Sekhar
+
+### References
+- Charih, François, and James R. Green. ""Audiogram Digitization Tool for Audiological Reports."" IEEE Access 10 (2022): 110761-110769.
+- [Machine Learning in Audiology: Applications and Implications](https://repository.library.carleton.ca/concern/etds/gt54kp02t).",2024,audiometry
+FinaCloud,AudiometryTest,None,2021,audiometry
+"indrajithc
+Indrajith C
+ ·",audiometry,None,2018,audiometry
+taylor-code,AudiometryBinaryClassification,"Audiometry Binary Classification
+
+Conducts a binary classification of audiometry data. Classifies data as 0 (Conductive) or 1 (Sensorineural).",2021,audiometry
+taylor-code,AudiometryMulticlassClassification,"Audiometry Multiclass Classification
+
+C# ML.NET program to predict the type, degree, and configuration of hearing loss.
+
+Performance
+
+The employed multiclass classification metrics are:
+
+Micro Precision
+Macro Precision
+Log-Loss
+Log-Loss Reduction
+These four metrics are represented on a scale of 0.00 to 1.00. For a high-performing model, the log-loss should be close to 0.00. Macro precision, micro precision, and log-loss reduction should be close to 1.00.1
+
+Model's Performance
+
+The average performance metrics for this program are:
+
+   Build Time         = 5:38 (Min:Sec)
+   Prediction Time    = 506 ms
+   Macro Precision    = 1.0000
+   Micro Precision    = 1.0000
+   Log-Loss           = 0.0236
+   Log-Loss Reduction = 0.9870
+Classifications
+
+The program predicts the following categories:
+
+Type
+
+Normal (No Hearing Loss)
+Conductive
+Sensorineural
+Mixed
+Degree
+
+Normal
+Slight
+Mild
+Moderate
+Moderately-Severe
+Severe
+Profound
+Configuration
+
+Bilateral
+Unilateral
+Symmetrical
+Asymmetrical
+Low-Frequency
+High-Frequency
+Classification Example
+
+Given the decibel values:
+
+  {
+    ""Left Ear"": {
+      ""AC"": {
+        ""250 Hz"": 35,
+        ""500 Hz"": 40,
+        ""1000 Hz"": 35,
+        ""2000 Hz"": 30,
+        ""4000 Hz"": 40,
+        ""8000 Hz"": 35
+      },
+      ""BC"": {
+        ""250 Hz"": 20,
+        ""500 Hz"": 20,
+        ""1000 Hz"": 25,
+        ""2000 Hz"": 20,
+        ""4000 Hz"": 20,
+        ""8000 Hz"": 20
+      }
+    },
+    ""Right Ear"": {
+      ""BC"": {
+        ""250 Hz"": -10,
+        ""500 Hz"": 10,
+        ""1000 Hz"": 0,
+        ""2000 Hz"": 5,
+        ""4000 Hz"": 45,
+        ""8000 Hz"": 45
+      },
+      ""AC"": {
+        ""250 Hz"": -5,
+        ""500 Hz"": -5,
+        ""1000 Hz"": -10,
+        ""2000 Hz"": -5,
+        ""4000 Hz"": 40,
+        ""8000 Hz"": 30
+      }
+    }
+  }
+The application correctly predicts the following labels:
+
+Type   = ""Mixed""
+Degree = ""Left: AC: Mild | BC: Slight & Right: AC: Moderate | BC: Mild""
+Config = ""Right: High-Frequency | Bilateral | Asymmetrical""
+Resource
+
+[1] Microsoft. (2019, December 17). Evaluate your ML.NET model with metrics. https://docs.microsoft.com/en-us/dotnet/machine-learning/resources/metrics",2021,audiometry
+https://github.com/krkruk,Tonal-Audiometry,"Tonal Audiometry
+================
+
+Examine your hearing with a Tonal Audiometry application.
+
+The source code can be compiled and run on many platforms. The sound files were generated using Audacity.",2016,audiometry
+taylor-code,AudiometryDataGeneration,"# Audiometry Data Generation
+JavaScript program to generate pure-tone hearing loss data.
+
+One execution produces approximately 17,500 instances in one second.
+
+---
+
+## How To Run
+
+1. Download Node.js for your platform: https://nodejs.org/en/download/
+2. In Visual Studio Code, open the **/AudiometryDataGeneration** folder.
+3. Type `npm install` in the terminal to install the dependencies.
+4. Type `node index` to run the program.
+
+---
+
+## Data
+One execution produces three data sets:
+1. Training Set: Approximately 14,000 instances
+2. Testing Set: Approximately 3,500 instances
+3. Prediction Set: 3 instances
+
+The training and testing sets are saved in JSON format to **/Data/JSON**.
+
+The three sets are saved in CSV format to **/Data/CSV**.
+
+
+### Data Instance
+
+Here is a sample instance:
+```json
+  {
+    ""Left Ear"": {
+      ""AC"": {
+        ""250 Hz"": -10,
+        ""500 Hz"": -10,
+        ""1000 Hz"": 5,
+        ""2000 Hz"": 0,
+        ""4000 Hz"": 45,
+        ""8000 Hz"": 50
+      },
+      ""BC"": {
+        ""250 Hz"": -5,
+        ""500 Hz"": -10,
+        ""1000 Hz"": 10,
+        ""2000 Hz"": 10,
+        ""4000 Hz"": 35,
+        ""8000 Hz"": 30
+      }
+    },
+    ""Right Ear"": {
+      ""AC"": {
+        ""250 Hz"": 40,
+        ""500 Hz"": 30,
+        ""1000 Hz"": 30,
+        ""2000 Hz"": 40,
+        ""4000 Hz"": -10,
+        ""8000 Hz"": -10
+      },
+      ""BC"": {
+        ""250 Hz"": 40,
+        ""500 Hz"": 40,
+        ""1000 Hz"": 30,
+        ""2000 Hz"": 35,
+        ""4000 Hz"": 10,
+        ""8000 Hz"": -5
+      }
+    },
+    ""Type"": ""Left: Mixed & Right: Sensorineural"",
+    ""Degree"": ""Left: AC: Moderate | BC: Mild & Right: Mild"",
+    ""Configuration"": ""Left: High-Frequency & Right: Low-Frequency | Bilateral | Asymmetrical""
+  }
+```
+
+One instance contains the following information:
+- `Left Ear`: Air Conduction (`AC`) and Bone Conduction (`BC`) Pure-Tone Hearing Test Values
+- `Right Ear`: `AC` and `BC` Pure-Tone Hearing Test Values
+- `Type`: Conductive, Sensorineural, Mixed, or Normal (no hearing loss)
+- `Degree`: Normal, Slight, Mild, Moderate, Moderately-Severe, Severe, Profound
+- `Configuration`: Bilateral, Unilateral, Symmetrical, Asymmetrical, Low-Frequency, High-Frequency
+
+---
+
+## Program Process
+1. Generates and classifies single-ear instances.
+2. Combines the single-ear instances into two-ear instances.
+3. Classifies the two-ear instances.
+4. Ensures no duplicate entries exist.
+5. Splits the data into three sets: prediction, testing, and training data.
+6. Saves the sets in JSON format and in CSV format.",2021,audiometry
+https://github.com/YashShukla925,Audiometry,None,2023,audiometry
+https://github.com/MKesenheimer,Audiometry,"# Audiometry
+
+## Usage:
+Compile and run Audiometry:
+
+```
+make
+./SDLDisplay -i /Users/kesenheimer/stdout -h 600 -w 800
+```
+
+## Requirements
+```
+sudo port install libsdl2 libsdl2_gfx libsdl2_image libsdl2_mixer libsdl2_ttf
+```
+
+## Example
+![Example](https://raw.githubusercontent.com/MKesenheimer/Audiometry/main/Example.png)",2024,audiometry
+https://github.com/tareko,VRA,None,2018,audiometry
+https://github.com/HaZoru,audiometry,"# audiometry
+Part of my high school biology project.\
+Attempting to build a simple hearing threshold measuring program using Web Audio API",2022,audiometry
+https://github.com/HPorada,Audiometry,None,2021,audiometry
+https://github.com/Crisly,dfna9,"dfna9
+
+DFNA9 audiometry analysis First added 28-04-2020 CPL",2020,audiometry
+cran,audiometry,None,2021,audiometry
+https://github.com/Lukespacewalker,audiometry,None,2021,audiometry
+https://github.com/AllenAnZifeng,Audiometry,"## IBEHS 3I06 Research Project
+
+| Evaluation Criteria                        | Evaluated By:     | Weight | Done    |
+|--------------------------------------------|-------------------|--------|---------|
+| General knowledge on hearing losses        | Writing           | 10     | &check; |
+| Understanding of existing practices        | Writing           | 10     | &check; |
+| Requirement spec and UI design             | Report and mockup | 20     | &check; |
+| Programming                                | App development   | 40     |         |
+| research ethics and working with end users | User study        | 20     |         |
+
+
+The goal is to implement and evaluate a smartphone based audiometry hearing test app. The tasks include:
+
+1. Investigate how and what types of audiometry hearing tests are currently done in audio labs
+2. A comparison of the features and usability of representative audiometry hearing tests on iOS and android devices
+3. Implementation of an audiometry hearing test app. 
+4. Apply for McMaster research ethic approval and conduct a user study to evaluate the usability of the app among people with different degrees of hearing losses and compare the results with standard audio lab tests.  
+
+# Figma UI design 
+
+[demo](https://www.figma.com/proto/esWcmIBPSXO6ShWqrsdn6g/Audiometry-App?node-id=16%3A30&scaling=scale-down&page-id=0%3A1&starting-point-node-id=16%3A30)",2023,audiometry
+https://github.com/Kanabuhochi,audiometry,None,2020,audiometry
+https://github.com/candyhero,Audiometry,# AudiometryKids,2022,audiometry
+https://github.com/questrator,audiometry,None,2023,audiometry
+https://github.com/D-CHATARKAR,Audiometry,None,2024,audiometry
+https://github.com/jellison70,AuditoryRuminator,"AuditoryRuminator
+
+Repository for auditory self evaluation and assessment",2018,audiometry
+https://github.com/fernandojsg,audiometry,"audiometry
+
+Audiometry test.
+
+WARNING: This is not a diagnostic hearing evaluation. You should always seek out a hearing care professional if you suspect you have a hearing loss. The purpose of this test is to help you determine whether you could benefit from a comprehensive test and evaluation of your hearing.",2021,audiometry
+https://github.com/DmitriiPodlesnykh,audiometry,None,2017,audiometry
+https://github.com/sleeplessglory,Web Speech Audiometry Description,"# Web Speech Audiometry Description
+This project is a web application including speech audiometry technology. It's a desktop website providing opportunities to watch and search for videos using a speech audiometry module.
+This module is able to define keywords in one's speech off the video and find those videos.
+# The Algorithm
+All the users can find videos based on their names or keywords containing in speech data in videos. The program find keywords in relevant videos and count the amount of keywords in each one. Then videos are being sorted by the amount of found keywords, which makes videos show as relevant as the amount of keywords within them. The more keywords are being found in speech data, the higher the video is being shown in the list of results.
+# Interface of the Web Page With Results
+The speech audiometry technology is being used in a program module when the keywords are typed in the corresponding search bar. One search bar is for video names, another one is for keywords.
+![0](https://github.com/darkswan19/WebAppDip/assets/91571026/fcd84455-f3eb-42e2-b2dc-0a7a92450d6c)
+# Unit and Application Testing
+The application testing is shown in the picture above, manually being tested right on the web page. The video containing more keywords than another one is shown higher in results.
+The unit testing contains functions that automatically put diverse video names and keywords to define the amount of keywords. At the end of each test the list of sorted results is being returned.
+![4](https://github.com/darkswan19/WebAppDip/assets/91571026/483f8291-689d-407a-b4cd-6d48a819e933)
+![5](https://github.com/darkswan19/WebAppDip/assets/91571026/af5ec2ba-3026-42fc-9cd8-65e14f926784)
+# Developer Documentation
+The developer documentation was made by Doxygen and the batch file included above.
+All the functions of the module are described: their brief description, parameters, exceptions and what they return.
+![1](https://github.com/darkswan19/WebAppDip/assets/91571026/78d3c010-d340-4f4c-9e4e-dfae500b478f)
+![2](https://github.com/darkswan19/WebAppDip/assets/91571026/e722109a-6d17-4158-9263-b2e783a32a6f)
+# User Documentation
+Eventually, the user documentation was made to raise the awareness of how the speech audiometry technology works and all main functionalities of the web site are also described.
+
+![3](https://github.com/darkswan19/WebAppDip/assets/91571026/f6b8c88a-b760-41d9-a1b2-8b92747d3f8e)",2023,audiometry
+https://github.com/aryathulasi,audiometryproject,None,2018,audiometry
+https://github.com/celestecece,audiometrygraph,None,2023,audiometry
+https://github.com/Crisly,dfna9-systematic-review,"
+DFA9 systematic review audiometry analysis This repository contains the code used to reproduce a number of figures in the manuscript ""Genotype-phenotype correlations of pathogenic COCH variants in DFNA9: a HuGE systematic review and audiometric meta-analysis""",2021,audiometry
+https://github.com/Zespol-Inz-2016,Serwis-Audiometryczny,SERWIS INTERNETOWY BAZY DANYCH AUDIOMETRYCZNYCH projekt zakończony,2016,audiometry
+https://github.com/Akash200200,Audiometry_GUI,"o	Created GUI interface using mainly Tkinter library.
+o	Libraries used for other functionalities were numpy, matplotlib, pyaudio.
+o	Results presented by graph showing probable hearing aids and respective remedies",2016,audiometry
+https://github.com/mkusm,audiometer,"
+Audiometer is an android app. It provides a way to do the audiometry exam.
+
+Created back in 2015 as part of my Engineer's Degree.",2022,audiometry
+https://github.com/Tarun2532,Shor_Audiometry,None,2021,audiometry
+https://github.com/claushansen,audiometry-slim,None,2021,audiometry
+https://github.com/borisbarath,audiometry-tester,"Audiometry Hearing Loss Calculator
+
+A GUI application for easy entry of data measured by an audiometer and calculation of hearing loss (using Fowler's method) for ENT surgeons.",2018,audiometry
+https://github.com/alammasoodi,ToneAudiometry,None,2018,audiometry
+https://github.com/BhaskerSriHarsha,Opensource-Audiometry,"A python program which lets anybody perform audiometry on any laptop or desktop. Logic of the code is self explanatory. Anyway, comments have been provided to make it more readable.
+
+Disclaimer: This tool is not a ""medical grade"" product and should not be considered as an alternative for an expert opinion. This tool is still under-development.
+
+Author: Suri Bhasker Sri Harsha Research Scholar - MS Computer science department IIT Tirupati
+
+Operating system: Ubuntu 16.04. {should work for other similar Linux distros} Language used: Python 2.7 Date of upload: 8th October 2018",2018,audiometry
+https://github.com/hausersn1,DPOAE-Audiometry,This will be files for analyzing DPOAE and audiometry data from the synaptopathy project.,2023,audiometry
+https://github.com/shwncndn,soundlift_audiometry,"# SoundLift
+
+
+# SoundLift
+
+
+```mermaid
+erDiagram
+User {
+  string username
+  string email
+  string password
+  string hashed_password
+  naive_datetime confirmed_at
+}
+TestResults {
+    integer left_ear
+    integer right_ear
+    integer total_score
+    naive_datetime published_on  
+}
+
+User ||--O{ TestResults: """"
+```
+
+To start your Phoenix server:
+
+  * Run `mix setup` to install and setup dependencies
+  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
+# soundlift_audiometry",2023,audiometry
+https://github.com/Mattst123,pi-audiometry,"PI V - IOT Project.
+
+Project to develop an IOT device for pure tone audiometry test.",2020,audiometry
+https://github.com/Amphxros,Audiometry-Plugin-Testing-Enviroment,None,2023,audiometry
+https://github.com/jula97,Audiometry-Generator,Semester 4 power amplifier project,2020,audiometry
+https://github.com/echestare,Audiometry_challenge_Data_Analyst,"<a href=""https://www.linkedin.com/in/ezequiel-nicolás-starecinch"" target=""_blank""><img alt=""LinkedIn"" src=""https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"" /></a>
+
+<h1 align=""center""> DESAFÍO DATA ANALYST and Data Science</h1>
+<h3 align=""center""> Data cleaning, EDAs, Data Science, SQL querys y Plotly DASH.</h3>
+
+<p align=""center""><img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/brand.jpg"" alt=""drawing"" width=""800""/></p>
+
+<!-- TABLE OF CONTENTS -->
+## Índice
+<details open=""open"">
+  <summary>Tabla de contenidos: </summary>
+  <ol>
+    <li>
+      <a href=""#about-the-project"">Sobre el proyecto.</a>
+      <ul>
+        <li><a href=""#project-overview"">Resumen del proyecto.</a></li>
+        <li><a href=""#built-with"">Desarrollado con.</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href=""#installation"">Instalación.</a></li>
+    </li>
+    <li>
+      <a href=""#stages-overview"">Partes del proyecto.</a>
+      <ul>
+        <li><a href=""#2-1"">2_1_Manipulando_bases_de_datos</a></li>
+        <li><a href=""#2-2"">2_2_Manejo_de_bases_de_datos_con_SQL</a></li>
+        <li><a href=""#2-3"">2_3_Análisis_Exploratorio_de_los_Datos___EDA</a></li>
+        <li><a href=""#2-4"">2_4_eda_dash</a></li>
+        <li><a href=""#2-5"">2_5_Consulta_y_análisis_usando_APIs</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href=""#productionization"">Productividad.</a>
+    </li>
+  </ol>
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## Sobre el proyecto:
+<!-- PROJECT OVERVIEW -->
+### Resumen del proyecto:
+Este proyecto nace de la conjunción de algunas pruebas para entrevistas de trabajo encontradas en internet. He conservado algunos enunciados y exigencias, agregado algunos y  modificando los datos originales y cualquier referencia a las empresas.
+
+En cada parte fue necesario hacer una limpieza de datos (más o menos significativo según el caso) y, al menos, un EDA.
+Se compone de 5 partes:
+- 2_1_Manipulando_bases_de_datos: `DATA SCIENCE`.
+- 2_2_Manejo_de_bases_de_datos_con_SQL: `SQL QUERIES`.
+- 2_3_Análisis_Exploratorio_de_los_Datos___EDA: `DATA ANLYSIS`.
+- 2_4_eda_dash: `INTERACTIVE DASHBOARD`
+- 2_5_Consulta_y_análisis_usando_APIs: `DATA ANLYSIS` (criterio).
+
+
+
+
+
+
+
+<!-- BUILT WITH -->
+### Desarrollado con:
+* **Versión de Python**: 3.8.8
+* **Framework**: Colaboratory de Google, Spyder IDE, Opera.
+* **Packages**:
+    - 2_1_Manipulando_bases_de_datos: pandas, numpy, seaborn, matplotlib, plotly, IPython y `sklearn`.
+    - 2_2_Manejo_de_bases_de_datos_con_SQL: pandas y `sqlite3`.
+    - 2_3_Análisis_Exploratorio_de_los_Datos___EDA: pandas, numpy, IPython, seaborn y `plotly`.
+    - 2_4_eda_dash: pandas, numpy, IPython, `Plotly`, `Dash` y `JupyterDash`.
+    - 2_5_Consulta_y_análisis_usando_APIs: pandas, matplotlib, `Plotly` y `requests`.
+
+
+
+<!-- INSTALLATION -->
+## Instalación 
+Clonando el repo
+   ```sh
+   git clone https://github.com/echestare/Audiometry_challenge_Data_Analyst.git
+   ```
+En google  colab:
+- Primero ir a la dirección del notebook que quiere ejecutar. Por ejemplo:
+```sh
+   https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/2_1_Manipulando_bases_de_datos.ipynb
+   ```
+   Y se reemplaza, en la dirección, `github.com` por `githubtocolab.com`. Como a continuación:
+```sh
+   https://githubtocolab.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/2_1_Manipulando_bases_de_datos.ipynb
+   ```
+- Luego ejecutar en la primera celda (para que se agreguen los archivos extras):
+
+>Este paso no es necesario, ya que todos los archivos del repo usan los datasets e imágenes subidos Google Drive (por lo que no necesita tenerlos localmente).
+
+   ```sh
+   !git clone https://github.com/echestare/Audiometry_challenge_Data_Analyst
+   ```
+
+<!-- stages overview -->
+## Partes del Proyecto:
+A continuación se presentan los links hacia los códigos funcionando en Colaboratory de Google:
+
+<!-- 2 1 -->
+### [2_1_Manipulando_bases_de_datos.ipynb](https://colab.research.google.com/drive/1Ddi5edhWpAqIJ2Cd5CAN_ooC2VXb0QLU?usp=sharing)
+
+- Dataset: llamadas al 911 en USA entre el 2015 y 2016 (más de 600K líneas). 
+
+    - Este archivo no se pudo subir en github por el límite de tamaño (pesa 117 MB), pero acá dejo el [link de Kaggle](https://www.kaggle.com/mchirico/montcoalert).
+
+    - De todos modos, el código usa el dataset almacenado en Drive. Si se abre con colab, la carga de los datos es muy rápida.
+
+- EDA simple.
+
+- Comparación de **modelos de algoritmos para predecir** la relación el `Código Postal` a partir de la `latitud y longitud`: Correlación de Pearson, Regresión Lineal, k-means, Hierarchical clustering, `Árbol de regresión (99%)`.
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_1_data.jpg"" alt=""drawing"" widtht =""800""/>
+
+||||
+|----------------|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_1_regression_tree.jpg"" alt=""drawing"" width=""350""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_1_kmean.jpg"" alt=""drawing"" width=""350""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_1_Hierarchical_clustering.jpg"" alt=""drawing"" width=""350""/>|
+||||
+
+    
+<!-- 2 2 -->
+### [2_2_Manejo_de_bases_de_datos_con_SQL.ipynb](https://colab.research.google.com/drive/1mA8LLd-Mkw7vmdCMQHAHdXCeI7itMC6Q?usp=sharing)
+
+- Dataset: encuesta a doctores sobre uso de audiómetro \_BRAND\_, datos personales y experiencia profesional.
+
+- **SQL Queries**
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_2_data.jpg"" alt=""drawing"" width=""800""/>
+
+|||
+|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_2_data_contacto.jpg"" alt=""drawing"" width=""400""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_2_data_acuf.jpg"" alt=""drawing"" width=""400""/>|
+|||
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_2_query.jpg"" alt=""drawing"" width=""800""/>
+
+<!-- 2 3 -->
+### [2_3_Análisis_Exploratorio_de_los_Datos___EDA.ipynb](https://colab.research.google.com/drive/1vVpQnQCKTf9rGFMGKVL2OCRXrmlauS2r?usp=sharing)
+
+- Dataset: encuesta a doctores sobre experiencia profesional haciendo acufenometrías (audiometría tinitumetría), experiencia, áreas de especialización, estímulos usados, datos personales y más (el dataset original tenía más datos, pero no eran pertinentes al trabajo y fueron eliminados).
+
+- **Análisis de Datos** de situaciones de interés específicas.
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_data.jpg"" alt=""drawing"" width=""800""/>
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_data_area.jpg"" alt=""drawing"" width=""800""/>
+
+|||
+|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_area_country.jpg"" alt=""drawing"" width=""400""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_country_area.jpg"" alt=""drawing"" width=""400""/>|
+|||
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_data_sound.jpg"" alt=""drawing"" width=""800""/>
+
+|||
+|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_sound_country.jpg"" alt=""drawing"" width=""400""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_3_country_sound.jpg"" alt=""drawing"" width=""400""/>|
+|||
+
+<!-- 2 4 -->
+### [2_4_eda_dash](https://colab.research.google.com/drive/1pnU1HQUgxqFsDqoKf6ZI8Q9R-P2j9D-T?usp=sharing)
+>Este link tiene modificaciones respecto del código en el repositorio para poder funcionar correctamente en un Notebook de `Colaboratory de Google`. La modificación más importante es que usa una librería vieja de Dash y de Jupyter-Dash (precisamente para poder funcionar en colab).
+
+>Así mismo, el link lleva a un archivo "".ipynb"", mientras que en el repo se trata de un archivo "".py"".
+
+- **Dashboard** funcional del análisis del punto anterior.
+    
+||||
+|----------------|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_4_overview.png"" alt=""drawing"" width=""350""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_4_area.png"" alt=""drawing"" width=""350""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_4_sound.png"" alt=""drawing"" width=""350""/>|
+||||
+    
+<!-- 2 5 -->
+### [2_5_Consulta_y_análisis_usando_APIs.ipynb](https://colab.research.google.com/drive/12tZH4r0_urV8jo8gFXuhoYkUhZ1GnOa1?usp=sharing)
+
+- Dataset: datos obtenidos de la app del audiómetro \_BRAND\_. Este dataset consta de dos tablas relacionadas por la columna ""id"".
+
+- **Análisis de Datos** de situaciones de interés específicas.
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_5_data1.jpg"" alt=""drawing"" width=""800""/>
+
+<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_5_data2.jpg"" alt=""drawing"" width=""800""/>
+
+|||
+|-------------------------------|-----------------------------|
+|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_5_freqs.jpg"" alt=""drawing"" width=""400""/>|<img src=""https://github.com/echestare/Audiometry_challenge_Data_Analyst/blob/main/Snapshots/2_5_intencities.jpg"" alt=""drawing"" width=""400""/>|
+|||
+
+
+
+<!-- productionization -->
+## Productividad:
+
+- 2_1_Manipulando_bases_de_datos: Tal vez, sea interesante probar un método de Vectorización clasificatorio, sin embargo, es indiscutible que el resultado del Árbol de Regresión es muy bueno.
+- 2_2_Manejo_de_bases_de_datos_con_SQL: La librería SQLite3 es excelente para hacer SQL Querys usando python; los resultados son más que satisfactorios.
+- 2_3_Análisis_Exploratorio_de_los_Datos___EDA: Este análisis muestra claramente cómo en ciertos países es más fuerte la presencia de Audiometristas mientras que en otros pueden ser irrisoria su presencia. Así como ciertas áreas de especialización dentro de la rama de la medicina tienen más alcance. Finalmente, la distribución de la utilización de los distintos estímulos para detectar acúfenos es relativamente similar para cada estado.
+- 2_4_eda_dash: El Dashboard es minimalista y aún así tiene toda la información significativa distribuida de forma tal que con la interactividad ofrecida se puede explorar convenientemente.
+- 2_5_Consulta_y_análisis_usando_APIs: La librería `requests` es simple y potente para la exploración de APIs. Durante la limpieza de datos se encontró que el dataset tiene una notable baja calidad. El análisis se terminó haciendo sobre menos datos de lo conveniente, pero pueden dar resultados útiles para tomar decisiones respecto al método para verificar la calidad del estudio.",2022,audiometry
+https://github.com/bro-jo,pure-tone-audiometry,None,2019,audiometry
+https://github.com/Hyeon07,AppAudiometry,"mobile application designed for conducting hearing tests and assessing an individual's auditory health. Users can use headphones and follow on-screen instructions to measure their hearing sensitivity, helping identify potential hearing impairments.",2023,audiometry
+https://github.com/kyranet,son-audiometry-tools,More information coming soon!,2021,audiometry
+https://github.com/sacross93,AUDIOMETRY-Object-Detection,"Work to create an automated AI assistant in a bioimaging center.
+
+Project Objective.
+
+All tasks are based on AUDIOMETRY.
+
+allow coordinates to be entered for marks on a graph in the form of a data frame.
+
+convert the table illustration below into a data frame.
+
+No Response (NR) means not measurable.",2024,audiometry
+https://github.com/shwetap3,MobileAudiometryApp,None,2014,audiometry
+https://github.com/diluo1999,Low_Cost_Boothless_Audiometry,"# Low Cost Boothless Audiometry
+
+## Description
+
+Boothless audiometry is a technology that promises to increase access to hearing examinations in low-income regions. However, there is a need for the technology to be cheaper, more informative, reliable, and easy-to-use to aid audiologists in making more accurate and informed hearing loss diagnoses.
+
+See [Written Proposal](Written%20Proposal.pdf) and [Proposal Presentation](Proposal%20Oral%20Presentation.pdf) for detailed description of the project.
+
+## Open-source Project Repositories
+
+TYMPAN, open-source hearing aid and hearing aid development tools, on [GitHub](https://github.com/Tympan).
+
+TabSINT, open-source platform for hearing assessments and general purpose questionnaires, on [GitLab](https://gitlab.com/diluo1999/tabsint).
+
+## Acknowledgement
+
+### Team Members
+- Azariah Javillonar
+- Daniel Abate
+- Di Luo
+- MacKenzie Guynn
+- Zhanel Nugmanova
+
+### [Dartmouth Hitchcock Medical Center](https://www.dartmouth-hitchcock.org/) Doctors and Researchers
+- Dr. Buckey
+- Dr. Saunders
+- Dr. Niemczak
+- Torri Lee
+
+### [Creare LLC](https://www.creare.com/) Engineers 
+- Dr. Odile Clavier, a principal engineer working on technology to lower the cost of healthcare
+- Eric Yuan, a research engineer who has worked with the Tympan
+- Blaine Ayotte, a software engineer who has worked with TabSINT
+- Chip Audette, an engineer who focuses on hearing systems and signal processing
+- Joel Murphy, who runs Tympan.org and is very knowledgeable about the device
+
+### Thayer School of Engineering at Dartmouth College Faculties
+- Professor Peter Chin
+- Nikki Stevens
+- Professor Solomon Diamond
+- Professor Rafe Steinhauer
+- Emily Monroe",2022,audiometry
+https://github.com/Bhumika1408,AppAudiometry_test,This is an app based audiometry .Which can be used to perform preliminary hearing test which can avoid regular clinical visits and give a preliminary results which is useful for both users and the doctors to treat,2023,audiometry
+https://github.com/pjumppanen,MaskingDemonstration,"
+This HTML5 app implements a simple demonstration of two tone masking
+                                                                                                                                                                                                                                                                in human hearing. a reference / masking tone is played at a specific
+                                                                                                                                                                                                                                                                frequency chosen by user input an a secondary tone with frequency
+                                                                                                                                                                                                                                                                relative to the reference tone is also chosen by the user along with
+                                                                                                                                                                                                                                                                the playback level relative to the reference tone. the user can thereby
+                                                                                                                                                                                                                                                                listen to the two tones and hear the effect of masking. the user is
+                                                                                                                                                                                                                                                                also able to plot there findings to build a masking profile for their
+                                                                                                                                                                                                                                                                own hearing.
+
+                                                                                                                                                                                                                                                                to use download the Masking.html file to a local drive and open it
+                                                                                                                                                                                                                                                                with a HTML5 compatible browser.",2023,audiometry
+https://github.com/gerardllorach,audiovisualdubbedMST,"# How to create video material for the Matrix Sentence Test
+
+This is a repository with guidelines and code to create visual material for the Matrix Sentence Test or any other audio-only speech material. If you want to dub audio material with video recordings you are in the right place. The code and guidelines were written by Gerard Llorach and Loïc Le Rhun.
+
+The asynchrony score calculation, suggested by Bernd Meyer, is based on the source code written by Frederike Kirschner and Giso Grimm and used uses the library developed by Mike Brookes (VOICEBOX) to calculate the mel spectrograms. The method and guidelines to dub audio material with video recordings are based on the work of [Llorach et al. (2022)](https://www.tandfonline.com/doi/full/10.1080/14992027.2021.1930205), supervised by Giso Grimm and Volker Hohmann.
+
+To understand how the asynchrony calculation works, you can check out this python notebook comparing the cross-correlation and the method used here (DTW): https://colab.research.google.com/drive/1ljsQSZxHgD-R7tG4cR6vcwV_h-OxfBGB?usp=sharing
+
+Licensed under GNU GENERAL PUBLIC LICENSE, Version 2, June 1991
+
+## Getting the audio-only material
+The audio-only material belongs to HörTech gGmbH. In principle, they can give you the material for research purposes for a limited period. You will find contact information on their [website](https://www.hoertech.de/). The specific website for the MST can be found in this [link](https://www.hoertech.de/en/devices/intma.html). You can directly specify that you need it for creating an audiovisual MST and that the audio files are required.
+
+The audio-only MST from HörTech will be mentioned as ""original audio"" throughout this guide.
+
+## Recording setup
+You will need a computer, a camera, a microphone and probably a sound mixing table/handheld recorder. Each setup will depend on the equipment that you have available. We propose a setup with a mirrorless camera (sony alpha 7), a shotgun microphone, and a handheld recorder (Zoom H6).
+
+### Audio routing
+The camera needs to record two audio inputs at the same time: one from the talker (captured by the shotgun microphone) and another one from the computer, where the original audio is being played. Because most cameras have one audio input, the microphone audio, and the computer audio will be stored in the left and right channel of the camera audio input. This will be done with a mono-to-stereo cable that mixes two mono signals into a stereo (Hosa YMM261). The shotgun microphone will be connected to the Zoom H6 and the line out of the Zoom H6 will be connected to one of the audio inputs of the mono-to-stereo cable (Hosa YMM261). The computer will have two audio outputs from the headphone output. You can achieve that with a jack splitter. One of the outputs will be connected to the remaining audio input of the mono-to-stereo cable (Hosa YMM261) and the other will be connected to the earphones that the talker will use. The final connections should look like this:
+- Microphone -> (XRL female -- XRL male) <- Zoom input channel 1
+- Zoom line out -> (3.5mm jack male -- 3.5mm jack male) <- Mono-to-stereo cable input 1
+- Computer audio output -> (3.5mm jack splitter male -- 3.5mm jack splitter female 1 -- 3.5mm jack male -- 3.5mm jack male) <- Mono-to-stereo cable input 2
+- Computer audio output -> (3.5mm jack splitter male -- 3.5mm jack splitter female 2) <- earphone to the talker
+- Mono-to-stereo cable output -> <- Camera audio input
+
+
+According to this setup, you will need the following cables: an XRL cable (female-male), two 3.5mm jacks (male-male), a 3.5mm jack splitter (1 male-2 female), and a mono-to-stereo 3.5mm jack (2 female-1 male). You will probably need an extension cable for the earphones (3.5mm jack male-female).
+
+![Audio Routing](img/audiorouting.jpg)
+
+The 3.5mm jack splitter and the mono-to-stereo 3.5mm jack are different cables. The first one duplicates a signal, whereas the second one creates a stereo mix from two mono signals. The cables look the same, but they are different inside and they are not interchangeable. 
+
+### Recording settings
+- Camera:
+   · record at 50 or 60 fps, 1080p (Full HD). At 50 fps, one frame equals 20ms. Ideally, the camera records in mp4 or some other standard format.
+   · avoid using automatic settings. If you do so, maybe the camera settings change during the recording session and one (video) sentence might look different from another.
+   · use optical zoom if you have, to separate/blur the background. You can also play with the aperture to blur the background (specified as f/<number> in cameras).
+   · do not use automatic gain control for audio
+- Microphone:
+  · use a shotgun microphone (also called boom I think) or a cardioid microphone, close to the speaker (e.g., above the speaker or below at the height of the knees and outside the recording frame of the camera).
+  · check out this video for mic setups: https://www.youtube.com/watch?v=cusxbkwyvQ4.
+  · never let the audio signal go over -12 dB in the camera and the handheld recorder.
+  · avoid background noise and try to get a clean recording. It will affect your asynchrony scores later.
+
+### Location
+There will be the talker (person speaking the sentences) and the recording equipment (camera, handheld recorder, microphone, computer, and lights). Choose a chair/stool for the talker that is comfortable and also forces the talker to sit with a straight back. Avoid using chairs with a high backrest, as it could appear in the video unintentionally.
+
+Choose an acoustically-treated room or a room where there is almost no reverberation. Avoid a room with natural light, as it can change throughout the recording session. Ideally, you want to get uniform lighting to the face of the talker, avoiding hard shadows. You can use two/three frontal-lateral diffuse light sources and one/two back hard light sources.
+
+Choose a location with a uniform background. If you have the possibility, separate the talker from the back wall/background. You can increase this effect with the zoom and the aperture of the camera. You can also use a green/blue background. This is useful if you want to later want to change the background. Beware that you will need to be careful with the lighting. For example, back hard lights are recommended to separate the talker from the green background.
+
+### Endurance
+Batteries are very important, both for the equipment and the talker. A session with 150 sentences should last around 2 hours. Make sure that you have extra batteries for every piece of equipment. The battery of a Sony Alpha lasts around 30 minutes. If you can connect the camera with a power cord that would be ideal, otherwise bring extra batteries. The battery of the handheld recorder usually lasts longer than a recording session (over 20 hours). Check the same for the computer and lights (ideally all connected with power cords).
+
+Make pauses for the talker. You don't want your talker to be tired, as the task requires being focused. Bring water/refreshments for the talker. To keep the same position of the talker in the chair/stool, you can use the display screen of the camera. By default, the display screen comes with a grid, usually by pressing the display button (DISP). You can use a non-permanent marker and directly paint on the display screen where the eyes and the mouth should always be.
+
+### Choose the right talker
+You should choose the right talker for your experiment. The most usual case is that you want a talker that is easy to speechread (lipread). Speech therapists and theater actors are a good choice.
+   
+### Legal issues
+The talker should give your institution the image rights of the recorded material. You can find an [example here (English)](docs/ImageRightsForm.docx). Regarding the rights over the recorded speech, I am not sure if you can distribute it as the original audios from Hörtech gGmbH were used to create them. You should talk with HörTech gGmbH and seek legal advice about this topic.
+
+
+
+## Recording session
+The talker should keep the mouth closed before and after each sentence and keep the same place. He/she should keep a neutral face (not sad!) and look at the camera. Try that the prosody (intonation) is the same. Repeat the instructions now and then to the talker. 
+
+To facilitate the recording session and the post-processing, there are scripts available. You need to follow the instructions in [NOTEBOOK_RECORDING.m](https://github.com/gerardllorach/audiovisualdubbedMST/blob/main/NOTEBOOK_RECORDING.m). We recommend that you read the Matlab script carefully, as they will speed up your recording session. 
+
+### Pre-processing
+During the recording session, the talker will listen to the sentences with cues. The talker will listen to something like this for a sentence: 
+   ```
+   -- Sentence code (morse) -- Beep -- Beep -- Beep -- Sentence -- Sentence -- Sentence -- Sentence.
+   ```
+   
+   The sentence code (morse) is a signal that encodes the id of the sentence. In the Matrix Sentence Test, the sentences can be coded with 5 digits, each digit representing a word for each category. For example, 01932.wav represents 0-Peter, 1-has, 9-seven, 3-red, 2-cars and 37872.wav represents 3-John, 7-buys, 8-twelve, 7-big, 2-cars. This sentence code signal is used for post-processing. It helps to cut the videos and to identify the sentences automatically (you won't have to check all the videos and identify each sentence).
+   
+   The beep signals are cues for the talker. They are also used in post-processing for cutting the videos in the right place. After the beep signals, there are four sentence repetitions. The first one is for the talker to listen and the following three are for the talker to speak simultaneously. There is a GUI in the scripts that helps with the recording process. The sentences can be selected and the audio reproduction is visually shown (the audio envelope is plotted and a cursor moves through it over time).
+   
+### Post-processing
+   Finding the sentences and selecting the best synchronous over a video file or several video files can be exhausting. The scripts provide an automatic process for cutting the videos, naming the cut videos with the sentence code and the take number, and for analyzing the asynchrony of each sentence-take. It does not matter if you have multiple video files or just one, the script processes all videos that are inside a given folder.
+
+### Testing
+Testing is most important. By testing the setup yourself, you will find out problems that should not appear during the recording session. Try to record 10-20 sentences and to get the final cut videos. You should also check that the sentences are correctly recorded and that you can extract the final videos that are the most synchronous.
+   
+   
+# References
+Llorach, G., Kirschner, F., Grimm, G., Zokoll, M.A., Wagener, K.C. and Hohmann, V., 2022. Development and evaluation of video recordings for the OLSA matrix sentence test. International Journal of Audiology, pp.1-11.
+   
+VOICEBOX, written by Mike Brookes, Department of Electrical & Electronic Engineering, Imperial College, Exhibition Road, London SW7 2BT, UK.",2023,audiometry
+https://github.com/jzeyl,AcousticCalcs,"**Note this is a work in progress - several functions may be incomplete**
+
+# AcousticCalcs
+The AcoustiCalcs package is a set of convenience functions for common calculations in acoustics and audiometry. 
+
+# Installation:
+```
+library(devtools)
+devtools::install_github(""jzeyl/AcousticCalcs"", force = TRUE)
+```
+
+# Functions
+|Category|function|description|
+|-----|-----|-----|
+|Unit conversion|hztocents()| convert a frequency interval to cents, semitones, and octaves
+|Sound propagation|onsettimediff()| Plot the time difference and phase angle differences between a sound wave passing through two recievers. input: frequency, distance between sensors, speed of sound. output: a list containing the two sound waves, time difference, and phase difference, an oscillogram plot of the wave if plot = TRUE|
+||dopplershift()| Input the speeds of sound source and receiver, and the speed of sound, and direction of movement between sources. Output: shifted frequency|
+||pressure_transmissionloss()| input the distance, level of the sound source. Can be converted for raw values or dB. Simply 1/r, spherical spreading.Output: get the amount of (1) transmission loss and (2) new sound level at new location|
+|Audiogram metrics| audiogramslice() |	Get high and low frequency hearing limits, best sensitivity, and best frqeuency from an audiogram for a given SPL level.
+||humanaudiogram()| data with human audiogram for reference 
+
+
+![alt text](/audiogramslice.svg)",2023,audiometry
+https://github.com/kevinprinsloo,Multiplex_amplitude_modulated_tone_audiometry,"Contributor Covenant Code of Conduct
+
+Our Pledge
+
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+Our Standards
+
+Examples of behavior that contributes to creating a positive environment include:
+
+Using welcoming and inclusive language
+Being respectful of differing viewpoints and experiences
+Gracefully accepting constructive criticism
+Focusing on what is best for the community
+Showing empathy towards other community members
+Examples of unacceptable behavior by participants include:
+
+The use of sexualized language or imagery and unwelcome sexual attention or advances
+Trolling, insulting/derogatory comments, and personal or political attacks
+Public or private harassment
+Publishing others' private information, such as a physical or electronic address, without explicit permission
+Other conduct which could reasonably be considered inappropriate in a professional setting
+Our Responsibilities
+
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
+Scope
+
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+
+Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at ffein@stanford.edu. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+
+Attribution
+
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at http://contributor-covenant.org/version/1/4",2020,audiometry
+https://github.com/manuvelloso,Audiometria,"<h1 align=""center""> TP Final EDII 2022: AUDIOMETRIA </h1>
+<i>Geonas, Guarnieri, Velloso, Zino </i>
+
+<h1> Circuito Electrónico: </h1>
+<i> Componentes: </i>
+- PIC 16F1827 <br>
+- Display Grafico <br>
+- Conversor A/D <br>
+<img src=""https://github.com/manuvelloso/Audiometria/assets/84191140/37e6b870-4ef6-4703-9a0b-6b870407f509"" alt=""Circuito en Proteus"">
+<h2> Software: </h2>
+- Comunicacion Serie: paquete de datos a PC + display gráfico <br>
+<i> En la carpeta con los nombres de las integrantes estan los archivos individuales. La solucion en si misma se encuentra en PROYECTO AUDIOMETRIA </i>",2024,audiometry
+https://github.com/corvusMidnight,LexicalResources,"A collection of lexical resources across languages for audiometry and linguistics
+
+![image](https://github.com/corvusMidnight/LexicalResources/assets/91611246/6a3f2b31-c6ca-425b-b057-4c209fe0637c)
+
+
+
+
+| **Title** | **Type** | **Description** | **Size** | **Link** |
+|-----------|---------|-----------------|----------|----------|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|
+|A|B|C|D|E|",2023,audiometry
+https://github.com/nydzio,Audiometria,None,2019,audiometry
+https://github.com/JacquelineKittel,Ain-t-no-sound-loud-enough-audiometry-in-MRI-settings,None,2018,audiometry
+https://github.com/kokamoto46,pure_tone,"This application is designed to practice the masking process of standard pure tone audiometry.
+
+Reposted for publication on March 15, 2024.",2024,audiometry
+https://github.com/Alexandre-Caldeira,detection-theory-101,"# detection-theory-101
+
+[![wakatime](https://wakatime.com/badge/user/5004c81a-62a7-4721-a885-32654543b047/project/fc33359e-c76b-42c8-895e-81b68cf0c61e.svg)](https://wakatime.com/badge/user/5004c81a-62a7-4721-a885-32654543b047/project/fc33359e-c76b-42c8-895e-81b68cf0c61e)
+
+> **[MOST RECENT RESULTS](https://htmlpreview.github.io/?https://github.com/Alexandre-Caldeira/detection-theory-101/blob/gh-pages/main.html)**
+
+Python notebooks I used for active learning / test stuff out while learning statistical signal processing.
+
+Mostly data viz from Monte Carlo simulations of Multivariate Objective Response Detection algorithms, like this:
+
+![](https://github.com/Alexandre-Caldeira/detection-theory-101/blob/main/res/visualizacao_MSC_singleshot-python.png)
+
+![](https://raw.githubusercontent.com/Alexandre-Caldeira/detection-theory-101/main/rd_viz.png)",2023,audiometry
+https://github.com/soundsaved,SoundSaved,None,2015,audiometry
+https://github.com/alextongue,audiogram-filtbank,None,2020,audiometry
+https://github.com/selmon1,VA-Audiology-App,"# NCRAR Tinnitus Research System
+A web application built for the staffs of NCRAR to aid them in research and to better serve patients who are suffering from tinnitus.
+
+Featuring the following frameworks:
+> An Angular starter kit featuring
+[Angular 4](https://angular.io),
+[Ahead of Time Compile](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), [Router](https://angular.io/docs/ts/latest/guide/router.html), [Forms](https://angular.io/docs/ts/latest/guide/forms.html),
+[Http](https://angular.io/docs/ts/latest/guide/server-communication.html),
+[Services](https://gist.github.com/gdi2290/634101fec1671ee12b3e#_follow_@AngularClass_on_twitter),
+[Tests](https://angular.io/docs/ts/latest/guide/testing.html), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)),
+[Karma](https://karma-runner.github.io/),
+[Protractor](https://angular.github.io/protractor/),
+[Jasmine](https://github.com/jasmine/jasmine),
+[Istanbul](https://github.com/gotwarlost/istanbul),
+[TypeScript](http://www.typescriptlang.org/),
+[@types](https://www.npmjs.com/~types),
+[TsLint](http://palantir.github.io/tslint/),
+[Codelyzer](https://github.com/mgechev/codelyzer),
+[Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), and
+[Webpack 2](http://webpack.github.io/) by [AngularClass](https://angularclass.com).
+
+
+## Getting Started
+
+The following instruction will show you how to get the project running in your local environment for development and testing.
+
+### Prerequisites
+* [NodeJs LTS and Npm](https://nodejs.org/en/download/)
+* [Git Bash](https://git-scm.com/downloads) for MacOS or  [TortoiseGit](https://tortoisegit.org/download/) for Windows
+
+#### Optional TypeScript-aware editor
+
+* [Webstorm 10](https://www.jetbrains.com/webstorm/download/)
+* [Atom](https://atom.io/) with [TypeScript plugin](https://atom.io/packages/atom-typescript)
+
+### Setting up Angular 4
+After installing the Node.js and Npm you should be ready to clone our repository.
+Open up Git Bash or Console and enter the following commands with administrator privilege
+1. Clone the repo
+```bash
+# Make note of the directory location
+git clone https://github.com/marissa-hagglund/VA-Audiology-Website.git
+```
+2. Go into the git repo directory
+```bash
+cd YOUR_REPO_LOCATION/VA-Audiology-Website
+```
+3. Install all the necessary packages with Npm
+```bash
+npm install -g node-pre-gyp
+```
+```bash
+# This step may take longer
+npm install
+```
+If you run into issues with node-sass when running ""npm install"" on MacOS,
+try running this command first:
+```bash
+npm install node-sass
+```
+
+#### Starting the application locally
+All the packages required for the project are now installed, you are now ready to run the application locally with the following commands:
+```bash
+# Be sure that you in the project directory first
+npm start
+```
+Your default browser should open up the application. If not enter the following link into your browser.
+```bash
+http://localhost:3000/
+```
+#### Running Unit Tests
+To run the unit tests, first change into your repo's directory and enter the following commands:
+```bash
+npm test
+```
+This will trigger lint to run first then all of the unit tests.
+#### End-to-End Tests
+Run protractor with the following commands
+```bash
+npm run protractor
+```
+
+## Configuration
+Configuration files live in `config/` directory. We are currently using webpack, karma, and protractor for different stages of your application.  
+
+### Adding external styling stylesheet
+Any stylesheets (Sass or CSS) placed in the `src/styles` directory and imported into the project will automatically be compiled into an external `.css` and embedded in the production builds.
+
+For example using Bootstrap as an external stylesheet:
+1. Create a `styles.scss` file (name doesn't matter) in the `src/styles` directory.
+2. Use `npm install` to install desired Bootstrap version
+3. In `styles.scss` add `@import 'bootstrap/scss/bootstrap.scss';`
+4. In `src/app/app.module.ts` add the import statements: `import '../styles/styles.scss';`
+
+### Adding new components
+New components can be added by using the following command:
+```bash
+ng generate component [your_compment_name]
+```
+This should generate all the necessary files in the `src\app\` folder.   
+Be sure to add your component to `app.module.ts` file.   
+Depending on the what you are working on, you will also need to add your component to the `declarations: [ ]` in `@NgModule`;
+
+### Adding new module
+New modules can be installed using Npm with the following command:   
+```bash
+npm install [package name]
+```
+Depending on the module, you may also need to add the module to `import: [ ]` and `export: [ ]` in `@NgModule`.   
+You may still need to import in the module in the component that uses it.
+
+## Contributing
+Before creating Pull Request; all unit tests should be passing and coverage should be 100% and there should not be any lint errors.  After three the Pull Request has been approved by three people the it will be merged into master.
+
+## Project Sponsor
+
+<b>National Center for Rehabilitative Auditory Research (NCRAR) at the OHSU VA</b>   
+Candice Manning    
+
+<b>Portland State University Computers Science Department</b>   
+Bart Massey
+
+## Authors
+Team Lead:
+* Marcus Brambora
+
+Team Members:
+* Dan Corcoran
+* Suleman Tarik
+* Selmon Afzal
+* Sam Cha
+* Joe Sands
+* Ryan Moore
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+<!--
+
+Commenting these out for now until we know more about deployment
+
+```bash
+# WINDOWS only. In terminal as administrator
+npm install -g node-pre-gyp
+
+# install the repo with npm
+npm install
+
+# start the server
+npm start
+
+# use Hot Module Replacement
+npm run server:dev:hmr
+```
+go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
+
+### server
+```bash
+# development
+npm run server
+# production
+npm run build:prod
+npm run server:prod
+```
+
+## Other commands
+
+### build files
+```bash
+# development
+npm run build:dev
+# production (jit)
+npm run build:prod
+# AoT
+npm run build:aot
+```
+
+### hot module replacement
+```bash
+npm run server:dev:hmr
+```
+
+### watch and build files
+```bash
+npm run watch
+```
+
+### run unit tests
+```bash
+npm run test
+```
+
+### watch and run our tests
+```bash
+npm run watch:test
+```
+
+### run end-to-end tests
+```bash
+# update Webdriver (optional, done automatically by postinstall script)
+npm run webdriver:update
+# this will start a test server and launch Protractor
+npm run e2e
+```
+
+### continuous integration (run unit tests and e2e tests together)
+```bash
+# this will test both your JIT and AoT builds
+npm run ci
+```
+
+### run Protractor's elementExplorer (for end-to-end)
+```bash
+npm run e2e:live
+```
+
+### build Docker
+```bash
+npm run build:docker
+```
+
+## Docker
+
+To run project you only need host machine with **operating system** with installed **git** (to clone this repo)
+and [docker](https://www.docker.com/) and thats all - any other software is not needed
+(other software like node.js etc. will be automatically downloaded and installed inside docker container during build step based on dockerfile).
+
+### Install docker
+
+#### MacOS:
+
+`brew cask install docker`
+
+And run docker by Mac bottom menu> launchpad > docker (on first run docker will ask you about password)
+
+#### Ubuntu:
+
+```
+sudo apt-get update
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'
+sudo apt-get update
+apt-cache policy docker-engine
+sudo apt-get install -y docker-engine
+sudo systemctl status docker  # test:  shoud be ‘active’
+```
+And add your user to docker group (to avoid `sudo` before using `docker` command in future):
+```
+sudo usermod -aG docker $(whoami)
+```
+and logout and login again.
+
+### Build image
+
+Because *node.js* is big memory consumer you need 1-2GB RAM or virtual memory to build docker image
+(it was successfully tested on machine with 512MB RAM + 2GB virtual memory - building process take 7min)
+
+Go to main project folder. To build big (~280MB) image which has cached data and is able to **FAST** rebuild  
+(this is good for testing or staging environment) type:
+
+`docker build -t angular-starter .`
+
+To build **SMALL** (~20MB) image without cache (so each rebuild will take the same amount of time as first build)
+(this is good for production environment) type:
+
+`docker build --squash=""true"" -t angular-starter .`
+
+The **angular-starter** name used in above commands is only example image name.
+To remove intermediate images created by docker on build process, type:
+
+`docker rmi -f $(docker images -f ""dangling=true"" -q)`
+
+### Run image
+
+To run created docker image on [localhost:8080](localhost:8080) type (parameter `-p 8080:80` is host:container port mapping)
+
+`docker run --name angular-starter -p 8080:80 angular-starter &`
+
+And that's all, you can open browser and go to [localhost:8080](localhost:8080).
+
+### Run image on sub-domain
+
+If you want to run image as virtual-host on sub-domain you must setup [proxy](https://github.com/jwilder/nginx-proxy)
+. You should install proxy and set sub-domain in this way:
+
+ ```
+ docker pull jwilder/nginx-proxy:alpine
+ docker run -d -p 80:80 --name nginx-proxy -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy:alpine
+ ```
+
+ And in your `/etc/hosts` file (linux) add line: `127.0.0.1 angular-starter.your-domain.com` or in yor hosting add
+ folowing DNS record (wildchar `*` is handy because when you add new sub-domain in future, you don't need to touch/add any DNS record)
+
+ ```
+ Type: CNAME
+ Hostname: *.your-domain.com
+ Direct to: your-domain.com
+ TTL(sec): 43200
+ ```
+
+And now you are ready to run image on subdomain by:
+
+```
+docker run -e VIRTUAL_HOST=angular-starter.your-domain.com --name angular-starter angular-starter &
+```
+
+### Login into docker container
+
+`docker exec -t -i angular-starter /bin/bash`
+
+## Netlify
+
+You can quickly create a free site to get started using this
+starter kit in production on [Netlify](https://www.netlify.com/):
+-->",2023,audiology
+https://github.com/marissa-hagglund,VA-Audiology-Website,"# NCRAR Tinnitus Research System
+A web application built for the staffs of NCRAR to aid them in research and to better serve patients who are suffering from tinnitus.
+
+Featuring the following frameworks:
+> An Angular starter kit featuring
+[Angular 4](https://angular.io),
+[Ahead of Time Compile](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), [Router](https://angular.io/docs/ts/latest/guide/router.html), [Forms](https://angular.io/docs/ts/latest/guide/forms.html),
+[Http](https://angular.io/docs/ts/latest/guide/server-communication.html),
+[Services](https://gist.github.com/gdi2290/634101fec1671ee12b3e#_follow_@AngularClass_on_twitter),
+[Tests](https://angular.io/docs/ts/latest/guide/testing.html), [E2E](https://angular.github.io/protractor/#/faq#what-s-the-difference-between-karma-and-protractor-when-do-i-use-which-)),
+[Karma](https://karma-runner.github.io/),
+[Protractor](https://angular.github.io/protractor/),
+[Jasmine](https://github.com/jasmine/jasmine),
+[Istanbul](https://github.com/gotwarlost/istanbul),
+[TypeScript](http://www.typescriptlang.org/),
+[@types](https://www.npmjs.com/~types),
+[TsLint](http://palantir.github.io/tslint/),
+[Codelyzer](https://github.com/mgechev/codelyzer),
+[Hot Module Replacement](https://webpack.github.io/docs/hot-module-replacement-with-webpack.html), and
+[Webpack 2](http://webpack.github.io/) by [AngularClass](https://angularclass.com).
+
+
+## Getting Started
+
+The following instruction will show you how to get the project running in your local environment for development and testing.
+
+### Prerequisites
+* [NodeJs LTS and Npm](https://nodejs.org/en/download/)
+* [Git Bash](https://git-scm.com/downloads) for MacOS or  [TortoiseGit](https://tortoisegit.org/download/) for Windows
+
+#### Optional TypeScript-aware editor
+
+* [Webstorm 10](https://www.jetbrains.com/webstorm/download/)
+* [Atom](https://atom.io/) with [TypeScript plugin](https://atom.io/packages/atom-typescript)
+
+### Setting up Angular 4
+After installing the Node.js and Npm you should be ready to clone our repository.
+Open up Git Bash or Console and enter the following commands with administrator privilege
+1. Clone the repo
+```bash
+# Make note of the directory location
+git clone https://github.com/marissa-hagglund/VA-Audiology-Website.git
+```
+2. Go into the git repo directory
+```bash
+cd YOUR_REPO_LOCATION/VA-Audiology-Website
+```
+3. Install all the necessary packages with Npm
+```bash
+npm install -g node-pre-gyp
+```
+```bash
+# This step may take longer
+npm install
+```
+If you run into issues with node-sass when running ""npm install"" on MacOS,
+try running this command first:
+```bash
+npm install node-sass
+```
+
+#### Starting the application locally
+All the packages required for the project are now installed, you are now ready to run the application locally with the following commands:
+```bash
+# Be sure that you in the project directory first
+npm start
+```
+Your default browser should open up the application. If not enter the following link into your browser.
+```bash
+http://localhost:3000/
+```
+#### Running Unit Tests
+To run the unit tests, first change into your repo's directory and enter the following commands:
+```bash
+npm test
+```
+This will trigger lint to run first then all of the unit tests.
+#### End-to-End Tests
+Run protractor with the following commands
+```bash
+npm run protractor
+```
+
+## Configuration
+Configuration files live in `config/` directory. We are currently using webpack, karma, and protractor for different stages of your application.  
+
+### Adding external styling stylesheet
+Any stylesheets (Sass or CSS) placed in the `src/styles` directory and imported into the project will automatically be compiled into an external `.css` and embedded in the production builds.
+
+For example using Bootstrap as an external stylesheet:
+1. Create a `styles.scss` file (name doesn't matter) in the `src/styles` directory.
+2. Use `npm install` to install desired Bootstrap version
+3. In `styles.scss` add `@import 'bootstrap/scss/bootstrap.scss';`
+4. In `src/app/app.module.ts` add the import statements: `import '../styles/styles.scss';`
+
+### Adding new components
+New components can be added by using the following command:
+```bash
+ng generate component [your_compment_name]
+```
+This should generate all the necessary files in the `src\app\` folder.   
+Be sure to add your component to `app.module.ts` file.   
+Depending on the what you are working on, you will also need to add your component to the `declarations: [ ]` in `@NgModule`;
+
+### Adding new module
+New modules can be installed using Npm with the following command:   
+```bash
+npm install [package name]
+```
+Depending on the module, you may also need to add the module to `import: [ ]` and `export: [ ]` in `@NgModule`.   
+You may still need to import in the module in the component that uses it.
+
+## Contributing
+Before creating Pull Request; all unit tests should be passing and coverage should be 100% and there should not be any lint errors.  After three the Pull Request has been approved by three people the it will be merged into master.
+
+## Project Sponsor
+
+<b>National Center for Rehabilitative Auditory Research (NCRAR) at the OHSU VA</b>   
+Candice Manning    
+
+<b>Portland State University Computers Science Department</b>   
+Bart Massey
+
+## Authors
+Team Lead:
+* Marissa Hagglund
+
+Team Members:
+* Jason Yu
+* Joseph Remington
+* Kaleb Striplin
+* Sean Paterson
+* Tutu Wei
+* Zeyong Shan
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+<!--
+
+Commenting these out for now until we know more about deployment
+
+```bash
+# WINDOWS only. In terminal as administrator
+npm install -g node-pre-gyp
+
+# install the repo with npm
+npm install
+
+# start the server
+npm start
+
+# use Hot Module Replacement
+npm run server:dev:hmr
+```
+go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
+
+### server
+```bash
+# development
+npm run server
+# production
+npm run build:prod
+npm run server:prod
+```
+
+## Other commands
+
+### build files
+```bash
+# development
+npm run build:dev
+# production (jit)
+npm run build:prod
+# AoT
+npm run build:aot
+```
+
+### hot module replacement
+```bash
+npm run server:dev:hmr
+```
+
+### watch and build files
+```bash
+npm run watch
+```
+
+### run unit tests
+```bash
+npm run test
+```
+
+### watch and run our tests
+```bash
+npm run watch:test
+```
+
+### run end-to-end tests
+```bash
+# update Webdriver (optional, done automatically by postinstall script)
+npm run webdriver:update
+# this will start a test server and launch Protractor
+npm run e2e
+```
+
+### continuous integration (run unit tests and e2e tests together)
+```bash
+# this will test both your JIT and AoT builds
+npm run ci
+```
+
+### run Protractor's elementExplorer (for end-to-end)
+```bash
+npm run e2e:live
+```
+
+### build Docker
+```bash
+npm run build:docker
+```
+
+## Docker
+
+To run project you only need host machine with **operating system** with installed **git** (to clone this repo)
+and [docker](https://www.docker.com/) and thats all - any other software is not needed
+(other software like node.js etc. will be automatically downloaded and installed inside docker container during build step based on dockerfile).
+
+### Install docker
+
+#### MacOS:
+
+`brew cask install docker`
+
+And run docker by Mac bottom menu> launchpad > docker (on first run docker will ask you about password)
+
+#### Ubuntu:
+
+```
+sudo apt-get update
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'
+sudo apt-get update
+apt-cache policy docker-engine
+sudo apt-get install -y docker-engine
+sudo systemctl status docker  # test:  shoud be ‘active’
+```
+And add your user to docker group (to avoid `sudo` before using `docker` command in future):
+```
+sudo usermod -aG docker $(whoami)
+```
+and logout and login again.
+
+### Build image
+
+Because *node.js* is big memory consumer you need 1-2GB RAM or virtual memory to build docker image
+(it was successfully tested on machine with 512MB RAM + 2GB virtual memory - building process take 7min)
+
+Go to main project folder. To build big (~280MB) image which has cached data and is able to **FAST** rebuild  
+(this is good for testing or staging environment) type:
+
+`docker build -t angular-starter .`
+
+To build **SMALL** (~20MB) image without cache (so each rebuild will take the same amount of time as first build)
+(this is good for production environment) type:
+
+`docker build --squash=""true"" -t angular-starter .`
+
+The **angular-starter** name used in above commands is only example image name.
+To remove intermediate images created by docker on build process, type:
+
+`docker rmi -f $(docker images -f ""dangling=true"" -q)`
+
+### Run image
+
+To run created docker image on [localhost:8080](localhost:8080) type (parameter `-p 8080:80` is host:container port mapping)
+
+`docker run --name angular-starter -p 8080:80 angular-starter &`
+
+And that's all, you can open browser and go to [localhost:8080](localhost:8080).
+
+### Run image on sub-domain
+
+If you want to run image as virtual-host on sub-domain you must setup [proxy](https://github.com/jwilder/nginx-proxy)
+. You should install proxy and set sub-domain in this way:
+
+ ```
+ docker pull jwilder/nginx-proxy:alpine
+ docker run -d -p 80:80 --name nginx-proxy -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy:alpine
+ ```
+
+ And in your `/etc/hosts` file (linux) add line: `127.0.0.1 angular-starter.your-domain.com` or in yor hosting add
+ folowing DNS record (wildchar `*` is handy because when you add new sub-domain in future, you don't need to touch/add any DNS record)
+
+ ```
+ Type: CNAME
+ Hostname: *.your-domain.com
+ Direct to: your-domain.com
+ TTL(sec): 43200
+ ```
+
+And now you are ready to run image on subdomain by:
+
+```
+docker run -e VIRTUAL_HOST=angular-starter.your-domain.com --name angular-starter angular-starter &
+```
+
+### Login into docker container
+
+`docker exec -t -i angular-starter /bin/bash`
+
+## Netlify
+
+You can quickly create a free site to get started using this
+starter kit in production on [Netlify](https://www.netlify.com/):
+-->",2018,audiology
+https://github.com/PreetMangat,"
+Audiology","# Audiology
+Music Player written in Javascript, HTML, CSS and PHP, using a MySQL database to store songs , users and playlists.
+
+![register-screen](https://i.imgur.com/UruYbo4.png)
+![home-screen](https://i.imgur.com/bwB7XWU.png)
+![album-screen](https://i.imgur.com/3lrAnPu.png)
+
+## Installation
+
+##### Dependencies
+-XAMPP 7.4.2 (can be downloaded here: https://www.apachefriends.org/index.html  
+-XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache, consisting mainly of the Apache HTTP Server, MySQL database, and interpreters for scripts written in PHP.
+
+##### Steps
+
+1) Clone repo into the htdocs folder, which is located inside the XAMPP folder.
+2) Run xampp-control.exe and start Apache and MySQL
+3) Go to Localhost/phpmyadmin, create a new database named 'audiology'
+4) click on the audiology database, and select import
+5) import the database file located at \xampp\htdocs\Audiology\Build_Mysql_DB , and press run
+6) Once the DB is created, navigate to localhost/audiology/register.php to begin the app",2020,audiology
+https://github.com/nirakarpanda,avantageAudiology,None,2016,audiology
+https://github.com/dmmarketer12,ssss,None,2024,audiology
+https://github.com/DublinAudiology,dublinaudiology,None,2018,audiology
+https://github.com/amakarewicz,2022-DTU-Deep-Learning-Speech-Synthesis,"Diffusion models for speech synthesis (with WS Audiology)
+
+Note: Notebooks with experiments are located in experiments folder (one notebook per each).",2023,audiology
+https://github.com/Aishwarya1730,AudiologyTest,None,2022,audiology
+https://github.com/edw1nzhao,AudiologyNLP,"# NLP_Audiology.src.AudiologyNLP
+
+Junior Design project for the Centers for Disease Control and Prevention
+
+Release Notes v0.1
+
+New Features
+Upload PNG files to be analyzed and have key audiology features extracted.
+Scanned results from uploaded PNG files can be edited and saved.
+Final extracted features exported as csv format. 
+
+Bug Fixes
+None. Initial release.
+
+Known Bugs and Defects
+Required conversion from PDF to PNG prior to scanning.
+Need better models for extracting medical history, test results and diagnosis.
+Proper database implementation required.
+Registration for new patient required.
+Requires very clear medical record for an input.
+Stored extracted features need to be accessible and displayable within the application.
+
+
+
+Install Guide  Audiology NLP v0.1
+
+PRE-REQUISITES: 
+You must have JDK 10 installed and configured for our java application.See: https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html for details.
+
+DEPENDENCIES:
+Download and install Tesseract. See: https://github.com/tesseract-ocr/tesseract/wiki 
+Download and install IntelliJ IDEA on your system. See: https://www.jetbrains.com/idea/  
+
+DOWNLOAD:
+Download Audiology NLP project from our github link: https://github.com/ezhao7/AudiologyNLP.git 
+
+BUILD:
+Copy the AudiologyNLP directory (downloaded in previous step) to any location you desire, start IntelliJ and choose import project option. Select AudiologyNLP and keep clicking next till the project is created in IntelliJ IDEA. 
+Once you are in IntelliJ with the project created, click Build -> Make Project from the main menu.
+
+RUNNING APPLICATION:
+When running this project for the first time in IntelliJ, find App.java under src/main/java.com, right click App and select Run ‘App.main()’.
+If you’ve run the project in the past, simply click Run from the main menu to restart the application.
+                ",2019,audiology
+https://github.com/dogacol,audiology,"Odyoloji App Tuşlar
+
+1, 2, 3, 4, 5, 6, 7, 8 tuşları her bir hayvanı ve sesi gösterir ve gizler
+
+F tuşuna basıp bir sayıya basıldığında SOL tarafta hayvan ve ses belirir (ses SOL PAN) G tuşuna basıp bir sayıya basıldığında SAĞ tarafta hayvan ve ses belirir (ses SAĞ PAN) M tuşu ile arkaplan videosu sessiz veya sesli hale getirilir R tuşu ile çözünürlük değiştirilebilir",2024,audiology
+https://github.com/payelmondal2021,AudiologyHardwareInventory,None,2021,audiology
+https://github.com/davidnymanmusic,audiology,None,2021,audiology
+https://github.com/AlonBenAriVA,AudiologyBooth,None,2018,audiology
+https://github.com/semnan-university-ai,Audiology,"Author : Amir Shokri
+
+github link : https://github.com/amirshnll/Audiology
+
+dataset link : http://archive.ics.uci.edu/ml/datasets/Audiology+%28Original%29
+
+email : amirsh.nll@gmail.com",2021,audiology
+https://github.com/martinStoimenov,Audiology,"# Audiology
+
+Audiology connects musicians with their fans.  [http://haloho-001-site1.dtempurl.com/](http://haloho-001-site1.dtempurl.com/)
+
+## Using ASP.NET Core 3.1 Template by : [Nikolay Kostov](https://github.com/NikolayIT)
+Technologies used:
+- ASP .NET Core 3.1
+- SignalR
+- Entity Framework Core 3.1
+- xUnit
+- Moq
+- JavaScript
+- jQuery
+- Bootstrap
+- HTML 5
+- CSS
+- FontAwesome
+- Cloudinary
+- SendGrid
+- Hangfire
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)",2020,audiology
+https://github.com/octopuscart,audiology,None,2023,audiology
+https://github.com/pauljoe,Audiology-test,Audiology test repository,2016,audiology
+https://github.com/audiologyplus71,Audiology-Plus-Website,None,2023,audiology
+https://github.com/leahqbruce,audiology,None,2020,audiology
+https://github.com/Mrpankaj666,Audiology,None,2021,audiology
+https://github.com/saranshavi,Audiology,None,2021,audiology
+https://github.com/payelmondal2021,AudiologyHardwareInventory_Dev,None,2021,audiology
+https://github.com/afbaum,audiology,"###IOI-HA Outcome Tracker
+
+My first MERN Stack!!
+
+This is my first complete MERN stack. I have based this on videos from Brad Traversy on Udemy. The IOIHA section of this webpage were my addition to the website. The Ioiha section includes creating reading and deleting from a Mongo database from Mlab.
+
+Project Description:
+
+The International Outcome Inventory for Hearing Aids is a seven item standardized measure which has been translated into 30 different languages.
+It was originally designed for evaluating the efficacy of hearing aid rehabilitation. It is standard practice to ask patients to complete a IOIHA at least one month after being fit with hearing aids. However an outcome measure means nothing unless you are tracking and analyzing the data.
+
+I currently work with six different hearing aid vendors (the big six). Although all hearing aids do the same thing (amplify sound), they all do it in different ways.
+I like to track the IOIHA outcome based on the Make and Style of the hearing aid.
+Are patients doing better with RIC style hearing aids than with Full Shell (FS) style hearing aids? Are patients doing better with one company's hearing aids compared to another company? Being able to answer these questions will help me improve my treatment for future patients.
+
+The point of this web application is to create a database of IOIHA outcomes based on Make, Model and style of hearing aid, then use those results to determine which treatment is working best for my patients.
+
+Instructions for running the app:
+
+To Run the App
+
+Please Run App in chrome
+
+Ensure you have node.js and nodemon installed on your computer
+Ensure that you have redux dev tools installed in Chrome
+Go to the root directory of the project
+Clone or download the project from the repo.
+Run npm install and npm run client-install to install necessary packages
+Run npm run dev to begin the app server process a webpage should open automatically at localhost:3000
+Sign up for the site
+Login to the site.
+You may enter Profile information
+Once you are logged in go to ioiha
+On the ioiha page you can enter ioiha data, it will update at the bottom of the screen on submit.
+Select the delete box to delete individual entries.
+Future improvements
+
+Error handling on the login page needs to be improved Updating the site to run on browsers other than Chrome. Everything is open on github right now for the purposes of Code-Louisville. That information needs to be changed and removed from git repository",2018,audiology
+https://github.com/AnyelaLayton,Audiology,None,2024,audiology
+https://github.com/atiyolog,Manuscripts,"# Automated scholarly manuscripts on GitHub
+
+<!-- usage note: edit the H1 title above to personalize the manuscript -->
+
+[![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://manubot.github.io/rootstock/)
+[![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://manubot.github.io/rootstock/manuscript.pdf)
+[![GitHub Actions Status](https://github.com/manubot/rootstock/workflows/Manubot/badge.svg)](https://github.com/manubot/rootstock/actions)
+[![Travis Build Status](https://travis-ci.com/manubot/rootstock.svg?branch=main)](https://travis-ci.com/manubot/rootstock)
+<!-- usage note: delete CI badges above for services not used by your manuscript -->
+
+## Manuscript description
+
+<!-- usage note: edit this section. -->
+
+This repository is a template manuscript (a.k.a. rootstock).
+Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+
+## Manubot
+
+<!-- usage note: do not edit this section -->
+
+Manubot is a system for writing scholarly manuscripts via GitHub.
+Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
+An [overview manuscript](https://greenelab.github.io/meta-review/ ""Open collaborative writing with Manubot"") presents the benefits of collaborative writing with Manubot and its unique features.
+The [rootstock repository](https://git.io/fhQH1) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
+See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
+
+Please open [an issue](https://git.io/fhQHM) for questions related to Manubot usage, bug reports, or general inquiries.
+
+### Repository directories & files
+
+The directories are as follows:
+
++ [`content`](content) contains the manuscript source, which includes markdown files as well as inputs for citations and references.
+  See [`USAGE.md`](USAGE.md) for more information.
++ [`output`](output) contains the outputs (generated files) from Manubot including the resulting manuscripts.
+  You should not edit these files manually, because they will get overwritten.
++ [`webpage`](webpage) is a directory meant to be rendered as a static webpage for viewing the HTML manuscript.
++ [`build`](build) contains commands and tools for building the manuscript.
++ [`ci`](ci) contains files necessary for deployment via continuous integration.
+
+### Local execution
+
+The easiest way to run Manubot is to use [continuous integration](#continuous-integration) to rebuild the manuscript when the content changes.
+If you want to build a Manubot manuscript locally, install the [conda](https://conda.io) environment as described in [`build`](build).
+Then, you can build the manuscript on POSIX systems by running the following commands from this root directory.
+
+```sh
+# Activate the manubot conda environment (assumes conda version >= 4.4)
+conda activate manubot
+
+# Build the manuscript, saving outputs to the output directory
+bash build/build.sh
+
+# At this point, the HTML & PDF outputs will have been created. The remaining
+# commands are for serving the webpage to view the HTML manuscript locally.
+# This is required to view local images in the HTML output.
+
+# Configure the webpage directory
+manubot webpage
+
+# You can now open the manuscript webpage/index.html in a web browser.
+# Alternatively, open a local webserver at http://localhost:8000/ with the
+# following commands.
+cd webpage
+python -m http.server
+```
+
+Sometimes it's helpful to monitor the content directory and automatically rebuild the manuscript when a change is detected.
+The following command, while running, will trigger both the `build.sh` script and `manubot webpage` command upon content changes:
+
+```sh
+bash build/autobuild.sh
+```
+
+### Continuous Integration
+
+Whenever a pull request is opened, CI (continuous integration) will test whether the changes break the build process to generate a formatted manuscript.
+The build process aims to detect common errors, such as invalid citations.
+If your pull request build fails, see the CI logs for the cause of failure and revise your pull request accordingly.
+
+When a commit to the `main` branch occurs (for example, when a pull request is merged), CI builds the manuscript and writes the results to the [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) and [`output`](https://github.com/manubot/rootstock/tree/output) branches.
+The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the following URLs:
+
++ **HTML manuscript** at https://manubot.github.io/rootstock/
++ **PDF manuscript** at https://manubot.github.io/rootstock/manuscript.pdf
+
+For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml) if using GitHub Actions or [`.travis.yml`](.travis.yml) if using Travis CI.
+
+## License
+
+<!--
+usage note: edit this section to change the license of your manuscript or source code changes to this repository.
+We encourage users to openly license their manuscripts, which is the default as specified below.
+-->
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+[![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
+Please attribute by linking to https://github.com/manubot/rootstock.
+
+Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
+All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
+
++ `*.sh`
++ `*.py`
++ `*.yml` / `*.yaml`
++ `*.json`
++ `*.bib`
++ `*.tsv`
++ `.gitignore`
+
+All other files are only available under CC BY 4.0, including:
+
++ `*.md`
++ `*.html`
++ `*.pdf`
++ `*.docx`
+
+Please open [an issue](https://github.com/manubot/rootstock/issues) for any question related to licensing.",2022,audiology
+https://github.com/yjgavin,AudiologyNLP,"Junior Design project for the Centers for Disease Control and Prevention
+
+Release Notes v0.1
+
+New Features Upload PNG files to be analyzed and have key audiology features extracted. Scanned results from uploaded PNG files can be edited and saved. Final extracted features exported as csv format.
+
+Bug Fixes None. Initial release.
+
+Known Bugs and Defects Required conversion from PDF to PNG prior to scanning. Need better models for extracting medical history, test results and diagnosis. Proper database implementation required. Registration for new patient required. Requires very clear medical record for an input. Stored extracted features need to be accessible and displayable within the application.
+
+Install Guide Audiology NLP v0.1
+
+PRE-REQUISITES: You must have JDK 10 installed and configured for our java application.See: https://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html for details.
+
+DEPENDENCIES: Download and install Tesseract. See: https://github.com/tesseract-ocr/tesseract/wiki Download and install IntelliJ IDEA on your system. See: https://www.jetbrains.com/idea/
+
+DOWNLOAD: Download Audiology NLP project from our github link: https://github.com/yjgavin/AudiologyNLP
+
+BUILD: Copy the AudiologyNLP directory (downloaded in previous step) to any location you desire, start IntelliJ and choose import project option. Select AudiologyNLP and keep clicking next till the project is created in IntelliJ IDEA. Once you are in IntelliJ with the project created, click Build -> Make Project from the main menu.
+
+RUNNING APPLICATION: When running this project for the first time in IntelliJ, find App.java under src/main/java.com, right click App and select Run ‘App.main()’. If you’ve run the project in the past, simply click Run from the main menu to restart the application.",2019,audiology
+https://github.com/bsashank7,Audiology,"The data set is taken from UCI machine laerning repository
+
+The task is to predict the class of disease a patient is suffering from based on his medical history
+
+Preprocessing has been done like missing value treatment and scaling of data to fit in the model
+
+Various classification models like KNN, SVC, Decision tree, Random forest etc is used and the best model is chosen at last
+
+Accuracy achieved is 96%",2021,audiology
+https://github.com/imlihao,audiology_ml,audiology use machine learning,2016,audiology
+https://github.com/VeteransHealthAdministrationNorCal,NCHCS_Audiology,"This application outputs the performance of NCHCS Audiology for all sites: Mather, McClellan, Chico, Redding, and Martinez. It looks at the available clinic slots, slots actually booked, and the visits that actually happened. It also tracks cancellations and no-shows by patients. For a given date range, it reports the above weekely numbers for each day. Finally, it plots a histogram of the actual visits, total slots available, and cancellation by clinic. It outputs the Median and interquartile range for actual visits, potential visits and slots used.",2018,audiology
+https://github.com/niteshrawal12,audiology,None,2021,audiology
+https://github.com/hdmthao,audiology,None,2020,audiology
+https://github.com/sravannk21,Sravana-Audiology,None,2023,audiology
+https://github.com/chiragmbinfoways,bharti-audiology,"<p align=""center""><a href=""https://laravel.com"" target=""_blank""><img src=""https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg"" width=""400""></a></p>
+
+<p align=""center"">
+<a href=""https://travis-ci.org/laravel/framework""><img src=""https://travis-ci.org/laravel/framework.svg"" alt=""Build Status""></a>
+<a href=""https://packagist.org/packages/laravel/framework""><img src=""https://img.shields.io/packagist/dt/laravel/framework"" alt=""Total Downloads""></a>
+<a href=""https://packagist.org/packages/laravel/framework""><img src=""https://img.shields.io/packagist/v/laravel/framework"" alt=""Latest Stable Version""></a>
+<a href=""https://packagist.org/packages/laravel/framework""><img src=""https://img.shields.io/packagist/l/laravel/framework"" alt=""License""></a>
+</p>
+
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).",2022,audiology
+https://github.com/rubansundararaj,ml_audiology,None,2019,audiology
+https://github.com/FlintShadey,VamAudiology,None,2023,audiology
+https://github.com/jnguy11,audiology-remake,"<br>
+<h1 align=""center"">A u d i o l o g y</h1>
+<h2 align=""center"">COMP 2523 - Object Oriented Programming</h2>
+<h3 align=""center"">FINAL PROJECT : Apple Music Clone</h3>
+
+<p align=""center"">
+<img src=""image_assets/audiologyLogoClear.png"">
+</p>
+
+<h2 align=""center"">N.W.A</h2>
+<h2 align=""center"">Nerds With Attitdude</h2>
+<h4 align=""center"">By: John Nguy | Emmy Wong | Jeffrey Lau</h4>
+<br><br>
+
+
+## Instructions
+
+#### Virtual Environment:
+
+> source venv/bin/activate
+
+#### Install:
+
+> pip3 install -r requirements.txt
+
+#### Setting Up AWS S3:
+
+Audio files in this app are stored in AWS S3. You will need to create and setup an AWS account.
+
+1. Setup an AWS S3 account if you haven't already done so. 
+
+> https://aws.amazon.com/s3/
+
+2. Create a bucket along with the following directory:
+
+> your_bucket_name/uploads
+
+3. run the following command in your terminal:
+
+> aws configure
+
+4. Enter the values below for the following prompts:
+
+> AWS Access Key ID: YOUR_ACCESS_KEY
+> AWS Secret Access Key: YOUR_SECRET_KEY
+> Default region name: us-west-1
+> Default output format: json
+
+5. Go to your S3 console https://s3.console.aws.amazon.com/
+
+6. Click on your bucket --> Permissions --> Bucket Policy
+
+7. Enter the following code to make your bucket public to access uploaded audio files:
+
+***Note:*** Replace `bucketname` with your bucket name.
+
+```
+{
+    ""Version"": ""2012-10-17"",
+    ""Statement"": [
+        {
+            ""Sid"": ""PublicRead"",
+            ""Effect"": ""Allow"",
+            ""Principal"": ""*"",
+            ""Action"": ""s3:GetObject"",
+            ""Resource"": ""arn:aws:s3:::bucketname/*""
+        }
+    ]
+}
+```
+
+8. Hit save.
+
+
+#### Run:
+
+> python3 run.py
+
+<br>
+
+## License & Copyright
+
+Copyright (c) 2020, John Nguy, Emmy Wong, Jeffrey Lau
+
+Licensed under the [MIT License](license.md).",2020,audiology
+https://github.com/tghimanshu,Ascending-audiology,None,2022,audiology
+https://github.com/AnishSgt,audiologydesign.com,None,2021,audiology
+https://github.com/rhinowalrus,scout-audiology,None,2019,audiology
+https://github.com/dkdhananjay,TestAudiology,for practise,2023,audiology
+https://github.com/agautherin,oo-audiology,None,2020,audiology
+https://github.com/dhananjayFlixir,AutomationAudiology,None,2022,audiology
+https://github.com/rookwood,audiology.js,"A few audiology-related graph/chart generators. For now, there's just an audiogram, but I have at least a few more planned at the request of a colleague.",2019,audiology
+https://github.com/Nick-Kh,audiology-ecommerece,None,2021,audiology
+https://github.com/Youngin9210,kmy-audiology,None,2021,audiology
+https://github.com/gayatribd,Audiology-Data-Mining,"Binary data analysis of Audiology for hearing loss and hearing aid based on the responses. Finding the pattern with the help of different clustering method for future status diagnosis of the patient. R-studio, IBM SPSS.",2018,audiology
+https://github.com/eliotbo,sequoia_audiology_tool,None,2023,audiology
+https://github.com/uop-libraries,Audiology-Version-2,"# Audiology-Version-2
+
+### Project Overview
+The Audiology Interactive Learning Application is a cutting-edge digital project aimed at enhancing the learning experience for audiology students, professionals, and individuals interested in the field. This project focuses on developing an immersive, user-friendly, and engaging platform that covers various aspects of audiology, including hearing assessment, hearing aid and more.
+https://miro.com/app/board/uXjVOxO0kDs=/
+
+### Purpose
+The Audiology Interactive Learning Platform aims to revolutionize audiology education and training, providing an innovative solution for learners at all stages of their professional journey. With its combination of immersive learning experiences, personalized pathways, and collaborative features, this platform will be a valuable resource for the audiology community.
+ 
+ ## Deliverables
+ 
+1. 360-degree videos: High-quality, immersive videos recorded for various audiology interactions, providing a realistic and engaging learning experience for users.
+
+2. Interaction Scenarios: A variety of interactive scenarios developed to cover key audiology concepts, techniques, and procedures, tailored to both VR and desktop platforms.
+
+3. VR Application: A fully-functional, user-friendly application designed for virtual reality headsets, including Google Cardboard, enabling users to engage with the audiology content in a fully immersive environment.
+
+4. Desktop Application: A complementary desktop version of the audiology application, designed for users who prefer a traditional computer-based learning experience or lack access to VR hardware.
+
+5. Application Packaging: The VR and desktop applications packaged and optimized for easy distribution, installation, and usage on the target platforms.
+
+6. User Documentation: Comprehensive guides, manuals, and tutorials to help users effectively navigate and utilize both the VR and desktop applications.
+
+7. Training Materials: A set of training resources for instructors and administrators to effectively integrate the applications into their curriculum and support student learning.
+
+ ## Helpful Links
+ 1. https://miro.com/app/board/uXjVOxO0kDs=/
+ 
+ 2. https://trello.com/b/1BZIAeBl/audiology",2023,audiology
+https://github.com/raviyadav75,Audiology_assignment_Siemens,"""# Audiology_assignment_Siemens""",2021,audiology
+https://github.com/atkmh,aStellarAudiology,None,2019,audiology
+https://github.com/Zikovich,Audiology-Taster,"I make use of being in Cairo to speak with an audiologist and discuss what I learned in the UCL extend course, so after long time of searching, I successfully visited Cairo University Medical school and It was very informative visit that consolidate many concepts.",2022,audiology
+https://github.com/MalcolmSlaney,StanfordAudiology,A place to exchange code and data for Stanford Audiology Experiments,2024,audiology
+https://github.com/audiologyplus71,Audiology-Plus-Coming-Soon,None,2018,audiology
+https://github.com/obelis,audiology-theme-7_0,None,2015,audiology
+https://github.com/kokamoto46,Predicting the necessity for enteral nutrition in acute stroke patients,"We created a model to predict changes in the necessity of enteral nutrition for patients with acute stroke. We used this source code to determine the best performing machine learning algorithm.
+
+File Description
+necessity_of_enteral_nutrition.py: Predictive model for the necessity of enteral nutrition in patients with acute stroke.
+severity.py: A model for predicting the severity of dysphagia in patients with acute stroke.
+app.py, logostiv_regression_best_model.pkl, scaler.pkl: Files requisite for the GUI of the predictive model. The web app is published on Streamlit Cloud; if you have trouble with the web app, please contact the author.",2024,audiology
+https://github.com/kurtmahaffey,Learn_Audiology,Initial files for DECO3801 project.,2018,audiology
+https://github.com/LeonardoJSantos,Gaudio,Program for Speech-Language Pathology and Audiology professionals,2024,audiology
+https://github.com/gallunf,VA_Audiology_CDs,"Three CDs made available for public and private use through the Dept. of Veterans Affairs
+
+CD 1: Speech Recognition and Identification Materials. CNC, NU6, SPRINT, Spanish word rec, enviornmental noise, speech in reverberation, PBK, WIPI (no score sheets or description booklet available)
+
+CD 2: Tonal and Speech Materials for Auditory Perceptual Assessment, Disc 2.0. Contains dichotic digits (1-digit, 2-digit and 3-digit lists, separated and interleaved), dichotic nonsense CVs, time-aligned and staggered, dichotic CVs with consonant and vowel on separate tracks, high-pass and low-pass filtered NU-6 words, frequency pattern test, duration pattern test, time-compressed speech, speech MLD. Descriptive booklet with scripts and materials as well as score sheets are available and included in this repository.
+
+CD 4: Reissue of Speech Recognition and Identification Materials,, including spondaic words (CID W-1), Maryland CNC, CID W-22, Harvard PB-50, Picture Identification Task, NU-6, WIN, Spanish picture identification, MLD. Descriptive booklet with scripts and materials as well as score sheets are available and included in this repository.",2023,audiology
+https://github.com/Mrpankaj666,https-github.com-Mrpankaj666-Audiology,None,2021,audiology
+https://github.com/ARDCPurdue,ARDC_Analysis,Scripts for analyzing raw data collected in the Audiology Research Diagnostics Core.,2024,audiology
+https://github.com/pooja2893,Global-Audiology-Devices-Market-Trends-Size-Forecast---2019-2025-,None,2020,audiology
+https://github.com/livelongoutfoot0uzwu341,Test Bank for Introduction to Audiology Today James W. Hall digital download immediately after payment is complete.,"Instant download **Test Bank for Introduction to Audiology Today James W. Hall** by click link bellow:  
+[https://testbankbell.com/product/test-bank-for-introduction-to-audiology-today-james-w-hall/](https://testbankbell.com/product/test-bank-for-introduction-to-audiology-today-james-w-hall/)  
+Test Bank for Introduction to Audiology Today James W. Hall digital download immediately after payment is complete.
+===================================================================================================================
+
+
+![](https://testbankbell.com/wp-content/uploads/2023/05/0205569234.jpg)
+**Product details:**
+* ISBN-10 ‏ : ‎ 9780205569236
+* * ISBN-13 ‏ : ‎ 978-0205569236
+  * * Author: James W. Hall III
+   
+  * An up-to-date introduction to the profession of audiology, Introduction to Audiology Today is written to stimulate the student’s interest and excitement in audiology or speech-language pathology as a career choice. Chapters on hearing science covering essential information about sound and auditory anatomy/physiology include helpful figures and readable explanations of recent research findings. Current behavioral and objective procedures and strategies for hearing assessment of children and adults are described and consistently related to clinical audiology practice. Two chapters are devoted to a readable and up-to-date review of the diverse etiologies underlying peripheral and central auditory dysfunction, including auditory neuropathy spectrum disorder and auditory processing disorders. The text is enhanced with an assortment of high quality digital photographs illustrating the tools and technologies used by audiologists in clinical practice.
+ 
+  * **Table contents:**
+  * **Part 1. Profession and Principles of Audiology**
+  * 1. Audiology Yesterday, Today, and Tomorrow
+    2. 2. Sound, Acoustics, and Psychoacoustics
+       3. 3. Anatomy and Physiology of the Auditory and Vestibular Systems
+         
+    3. **Part 2. Audiology Procedures and Protocols**
+    4. 4. Preparing for Hearing Assessment
+       5. 5. Pure Tone Audiometry
+          6. 6. Speech Audiometry
+             7. 7. Masking and Audiogram Interpretation
+                8. 8. Electro-Acoustic Measures
+                   9. 9. Special Speech Audiometry Tests and Auditory Evoked Responses
+                      10. 10. Differential Diagnosis of Auditory and Vestibular Disorders
+                         
+                          11. **Part 3. Patient Populations**
+                          12. 11. Outer, Middle, and Inner Ear Disorders
+                              12. 12. We Hearing With Our Brain. Retrocochlear and Central Nervous System Dysfunction and Disorders
+                                 
+                                  13. **Part 4. Audiologic Management Technology and Techniques**
+                                  14. 13. Audiologic Habilitation/Rehabilitation. Technology
+                                      14. 14. Audiologic Habilitation/Rehabilitation. Techniques
+                                          15. 15. Pseudohypacusis, Tinnitus, and Hyperacusis
+                                              16. 16. Management Strategies in Specific Patient Populations
+                                                 
+                                                  17. **People also search:**
+                                                  18. introduction to audiology today pdf
+                                                 
+                                                  19. introduction to audiology syllabus
+                                                 
+                                                  20. introduction of hearing impairment
+                                                 
+                                                  21. introduction to audiology
+                                                 
+                                                  22. audiology introduction
+                                                  23.  Get more solution manual or test bank at: [https://testbankbell.com](https://testbankbell.com)",2023,audiology
+https://github.com/glsaacke,321-MCA.team.project,MIS 321 team project developing a website for Music City Audiology,2024,audiology
+https://github.com/soltys,Open Rem,"# Open Rem
+
+OpenRem is making new approach to Real Ear Measurements, offering affordable and adequate user experience.
+
+
+## Software architecture
+
+![open_rem_architecture](Docs/OpenRem_architecture.png)
+
+## Hardware architecture
+
+![hardware_architecture](Docs/hardware_architecture.png)",2019,audiology
+https://github.com/shangeeran,Audio-Vizzion,None,2020,audiology
+https://github.com/LucyRothwell,Hear-Me-Out-app,"# ""Hear Me Out"" - A mobile app with website content management system (CMS)
+
+Click here to view a [poster of the app](https://github.com/LucyRothwell/Hear-Me-Out-app/raw/master/Hear_Me_Out_Poster.pptx)
+
+Click here to see the app [featured in the British Medical Journal](https://adc.bmj.com/content/105/Suppl_2/A10.3)
+
+**Overview**
+
+A mobile app (built using angular in Ionic) to help child audiology patients transition into the adult healthcare system. Includes website CMS for content upload. 
+
+App Functionality
+
+* Log appointments and symptoms
+* Find all NHS services across the UK (using NHS API)
+* Find NHS audio services
+* Take and upload photos (for example of medical reports and other useful information)
+* Write notes (for example in appointments)
+* Search for audiology terms in glossary
+* Read news articles related to audiology
+* Pop up help icons on each page
+
+Website Functionality
+
+A website content management system (CMS) was also created to allow clinicians to add articles to the ""News"" section of the app. Functionality:
+* Clinicians can write, edit and submit articles for publishing to the app
+* Admin can approve or reject articles submitted
+* Admin can add, delete or deactivate users
+
+*NOTE: Code cannot be shared but a concise graphic overview of the final product can be seen in the ""Hear_Me_Out_Poster"" file. Click [here](https://github.com/LucyRothwell/Hear-Me-Out-app/raw/master/Hear_Me_Out_Poster.pptx) to open.*",2021,audiology
+https://github.com/Chamikacp,PHP-GUI-for-a-firm-that-has-a-large-retail-chain-that-offers-optical-and-audiology-services,Php code for a GUI based on a MySQL database.,2020,audiology
+https://github.com/keithatan,SLAC,"# Purdue EPICS WISE SLAC
+
+### How to install and run a local server
+1. Install php and MySQL on your system
+2. Create a database named `slac`
+3. Copy `config.example.php` to `config.php` and enter in your MySQL info (created when you installed MySQL)
+4. Run `php -S localhost:8000` in the project directory
+5. Visit the site at http://localhost:8000/
+
+### Libraries and versions
+* Bootstrap - 3.3.7
+* jQuery - 1.x
+* jQuery UI - 1.11.4",2017,audiology
+https://github.com/hgroenenboom,Golden Hearing Experimental Hearing Test,"This project features a mockup for a hearing test specifically designed to assess users' temporal hearing loss. Developed in collaboration with LUMC's Golden Hearing initiative, the test explores the potential value of everyday and musical sounds compared to more traditional 'laboratory-like' sounds for hearing assessments.
+
+Known Issues:
+
+Audiofiles won't load on iPhone
+Created by Harold Groenenboom & Nick Verbeek",2023,audiology
+https://github.com/Crisly,VCCA workshop 2020,"# VCCA workshop 2020
+Raw materials for a workshop on infrastructure and open science at the **Virtual Conference on Computational Audiology (VCCA)**, june 19th, 2020.
+
+link: https://docs.google.com/presentation/d/1XPwInjOAWw-UeVytrjGQKowuIcrCw57FGZc4vrlU33w/edit?usp=sharing
+
+The talk refers to a number of pages and publications with a short description here:
+
+# https://www.practicereproducibleresearch.org/
+A consise piece of work on reproducible science. I've taken the liberty to ask participants what the greates hurdle for open science is, based on the 'pain points' descibed in chapter 5 (https://www.practicereproducibleresearch.org/core-chapters/5-lessons.html)
+
+# How long does it take to reproduce a figure from a paper three years back:
+As it turns out, it is approximately 280 hours. If you are an expert or the author. Otherwise it is not reproducible
+
+source: Garijo, Daniel, Sarah Kinnings, Li Xie, Lei Xie, Yinliang Zhang, Philip E. Bourne, and Yolanda Gil. “Quantifying Reproducibility in Computational Biology: The Case of the Tuberculosis Drugome.” PloS One 8, no. 11 (2013): e80278. https://doi.org/10.1371/journal.pone.0080278.
+
+# Repeatability of published microarray gene expression analyses.
+If you'd repeat some of the highest impact papers, how many of the are reproducible?
+Two analyses could be reproduced in principle and six partially or with some discrepancies; ten could not
+be reproduced. The main reason for failure to reproduce was data unavailability, and discrepancies were related to incomplete data annotation or specification of data processing and analysis in the original papers.
+
+Source: Ioannidis, John P. A., David B. Allison, Catherine A. Ball, Issa Coulibaly, Xiangqin Cui, Aedín C. Culhane, Mario Falchi, et al. “Repeatability of Published Microarray Gene Expression Analyses.” Nature Genetics 41, no. 2 (February 2009): 149–55. https://doi.org/10.1038/ng.295.
+
+",2020,audiology
+https://github.com/2e-garcia,AJA-Labor,"Garcia Morales, E. E., Lin, H., Suen, J. J., Varadaraj, V., Lin, F. R., & Reed, N. S. (2022). Labor Force Participation and Hearing Loss Among Adults in the United States: Evidence From the National Health and Nutrition Examination Survey. American Journal of Audiology, 1-9.",2022,audiology
+https://github.com/sarahsalman,HearingTest,None,2020,audiology
+https://github.com/Heatlhcare24,https-www.prothomalo.com-,None,2020,audiology
