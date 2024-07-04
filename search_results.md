@@ -4,17 +4,16 @@
 - MEDLINE (Ovid version)
 - PsycINFO (Ovid version)
 - EMBASE (Ovid version)
-- Cochrane Library
 - CINAHL
 - IEEE
-- Web of Science
+- Scopus
 - GitHub†  
 - BASE*
 
 Reference lists of eligible studies and any other relevant systematic reviews will be screened manually. The search will be limited to the English language only.
 
-†GitHub is used to allow for unpublished models to be included in the review (Siddaway et al., 2019).  
-*These two resources are used to allow for a.) ‘Grey literature’ and b.) unpublished works to be included in the review (Siddaway et al., 2019).
+†GitHub is used to allow for unpublished models to be included in the review ([Siddaway et al., 2019](https://doi.org/10.1146/annurev-psych-010418-102803)).  
+*These two resources are used to allow for a.) ‘Grey literature’ and b.) unpublished works to be included in the review ([Siddaway et al., 2019](https://doi.org/10.1146/annurev-psych-010418-102803)).
 
 ## Queries
 ### Medline
@@ -36,7 +35,7 @@ Reference lists of eligible studies and any other relevant systematic reviews wi
 (Hearing Loss OR Audiometr*) AND (Machine Learning OR Cluster analysis OR Artificial Intelligence)
 
 ### Scopus
-
+("Hearing loss" OR "Hearing Impair*" OR "sensorineural" OR "sensori neural" OR "age related hearing loss" OR presbyacusis or deaf*) AND ("pure tone audio*" OR audiometr* OR auditory OR PTA OR "hearing test" OR "hearing assess*" OR "speech in noise" OR SIN or "speech perception" OR ABR OR "auditory brainstem response" OR "auditory evoked potent*" OR AEP OR "otoacoustic emiss*" OR OAE) AND (“Machine learning” or cluster* OR "artificial intelligence") 
 
 ### GitHub
 "Audiometry" - 66 repositories
