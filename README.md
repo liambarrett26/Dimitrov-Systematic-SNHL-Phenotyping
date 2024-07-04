@@ -33,6 +33,7 @@ The repository is organized into the following directories and files:
 │   ├── stage_2_title_abstract_screening.ipynb
 │   ├── inter_rater_reliabilities.ipynb
 │   └── README.md
+├── search_results.md
 ├── third_reviewer_responses.md
 ├── README.md
 └── LICENSE
@@ -41,6 +42,7 @@ The repository is organized into the following directories and files:
 ### Directories and Files
 For both the `data` and `notebooks` directories, please seee the `README.md` files in each directory for further infomation on the files.
 
+- **search_results.md**: File detailing the search terms input to the databases and the number of retrieved articles.
 - **third_reviewer_responses.md**: File detailing where R1 and R2 disagreed during the review process and R3's final decision.
 - **README.md**: This file, providing an overview of the project and its structure.
 - **LICENSE**: The license for the project, detailing the terms of use.
