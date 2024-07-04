@@ -27,8 +27,7 @@ The repository is organized into the following directories and files:
 │   │   ├── LB_response_complete.csv
 │   │   └── full_text_reviews.csv
 │   ├── appraise-ai/
-│   │   ├── APPRAISE-AI (scoring form)-LD.xlsx
-│   │   └── APPRAISE-AI (scoring form)-LB.xlsx
+│   │   └── APPRAISE-AI (scoring form) complete.xlsx
 │   └── README.md
 ├── notebooks/
 │   ├── search_preproc.ipynb
