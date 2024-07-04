@@ -2,6 +2,8 @@
 
 This repository contains the data and code used for the systematic review on the phenotyping of sensorineural hearing loss (SNHL). The project includes the data generated during the search and review process, as well as the code books used for analysis. The systematic review was undertaken primarily by three reviewers (Lilia Dimitrov, R1; Liam Barrett, R2; Nishchay Mehta, R3).
 
+[![DOI](https://zenodo.org/badge/823689797.svg)](https://zenodo.org/doi/10.5281/zenodo.12654242)
+
 ## Repository Structure
 
 The repository is organized into the following directories and files:
